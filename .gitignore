@@ -1,0 +1,14 @@
+# Source PDFs — copyrighted, never committed
+pdfs/
+
+# Node / Astro
+node_modules/
+site/node_modules/
+site/dist/
+site/.astro/
+dist/
+
+# Rendered page images (temporary extraction artifacts)
+*.render/
+scratch/
+.DS_Store
