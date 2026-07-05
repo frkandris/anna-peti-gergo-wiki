@@ -24,6 +24,23 @@ GENERATED = ["stories", "characters", "locations", "objects", "themes", "seasons
 # object id -> forced category when batches disagree
 CATEGORY_OVERRIDES = {"babakocsi": "vehicle"}
 
+# theme slug aliases -> canonical slug (merges synonym themes)
+THEME_ALIASES = {
+    "iskolakezdes": "iskola-kezdes",
+    "ovoda-kezdes": "ovoda",
+    "onallosodas": "onallosag",
+    "harag": "duh",
+    "testvervita": "testverfeltekenyseg",
+}
+# canonical labels for the merge targets (so an alias's label can't pollute them)
+CANONICAL_THEME_LABELS = {
+    "iskola-kezdes": "Iskolakezdés",
+    "ovoda": "Óvoda",
+    "onallosag": "Önállóság",
+    "duh": "Düh",
+    "testverfeltekenyseg": "Testvérféltékenység",
+}
+
 # id -> forced fields (applied after dedup). Keeps entities canonical across volumes.
 ENTITY_OVERRIDES = {
     # The family's own red car — a distinct entity from the toy car (kisauto).
@@ -83,7 +100,9 @@ def main():
         for o in b["entities"].get("objects", []):
             objs[o["id"]] = better(objs.get(o["id"]), o)
         for t in b["taxonomy"].get("themes", []):
-            themes.setdefault(t["slug"], t["label"])
+            slug = THEME_ALIASES.get(t["slug"], t["slug"])
+            label = CANONICAL_THEME_LABELS.get(slug, t["label"])
+            themes.setdefault(slug, label)
         for s in b["taxonomy"].get("seasons", []):
             seasons.setdefault(s["slug"], s["label"])
         for h in b["taxonomy"].get("holidays", []):
@@ -98,6 +117,14 @@ def main():
         for eid, fields in ENTITY_OVERRIDES.items():
             if eid in tbl:
                 tbl[eid] = {**tbl[eid], **fields}
+
+    # apply theme aliases to story references (dedup, preserve order)
+    for s in stories:
+        s["themes"] = list(dict.fromkeys(THEME_ALIASES.get(t, t) for t in s.get("themes", [])))
+    # canonical labels win even if a canonical theme already existed with a weaker label
+    for slug, label in CANONICAL_THEME_LABELS.items():
+        if slug in themes:
+            themes[slug] = label
 
     stories.sort(key=lambda s: (s.get("volume", ""), s.get("order", 0)))
 

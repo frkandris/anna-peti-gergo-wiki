@@ -68,13 +68,25 @@ img { max-width: 100%; }
   border-bottom: 2px solid var(--line);
 }
 .site-header .wrap { display: flex; align-items: center; gap: 20px; height: 64px; }
-.brand { font-family: var(--font-display); font-weight: 800; font-size: 1.15rem; color: var(--ink); display: flex; align-items: center; gap: 9px; }
+.brand { font-family: var(--font-display); font-weight: 800; font-size: 1.15rem; color: var(--ink); display: flex; align-items: center; gap: 9px; white-space: nowrap; flex-shrink: 0; }
 .brand:hover { text-decoration: none; }
-.brand .dots { display: inline-flex; gap: 3px; }
+.brand .dots { display: inline-flex; gap: 3px; flex-shrink: 0; }
 .brand .dots i { width: 12px; height: 12px; border-radius: 50%; display: block; }
 .nav { margin-left: auto; display: flex; gap: 6px; flex-wrap: wrap; }
-.nav a { color: var(--ink-soft); font-weight: 700; padding: 6px 12px; border-radius: 999px; font-size: .95rem; }
+.nav a { color: var(--ink-soft); font-weight: 700; padding: 6px 12px; border-radius: 999px; font-size: .95rem; white-space: nowrap; }
 .nav a:hover { background: var(--paper-2); color: var(--ink); text-decoration: none; }
+
+/* mobile: stack brand on its own row, nav wraps full-width below (no overlap) */
+@media (max-width: 720px) {
+  .site-header .wrap { height: auto; flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px; gap: 8px; }
+  .brand { font-size: 1.05rem; }
+  .nav { margin-left: 0; width: 100%; gap: 5px; }
+  .nav a { padding: 5px 10px; font-size: .9rem; }
+}
+@media (max-width: 380px) {
+  .brand { font-size: .98rem; gap: 7px; }
+  .brand .dots i { width: 10px; height: 10px; }
+}
 
 /* ---------- hero ---------- */
 .hero { padding: 44px 0 20px; }
