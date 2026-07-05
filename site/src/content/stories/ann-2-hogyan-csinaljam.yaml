@@ -1,0 +1,28 @@
+id: "ann-2-hogyan-csinaljam"
+title: "Hogyan csináljam?"
+volume: "annakonyv-kezdetek"
+order: 2
+pageStart: 21
+pageEnd: 38
+summary: "A friss szülők bizonytalanságáról és tanulási folyamatáról, ahogy fokozatosan belejönnek a csecsemőgondozás mindennapi teendőibe."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+  - "szent-istvan-park"
+  - "korhaz"
+objects:
+  - "pelenka"
+  - "kiskad"
+  - "babamerleg"
+  - "babakocsi"
+  - "lufi"
+  - "forgo"
+themes:
+  - "gondoskodas"
+  - "etetes"
+seasons:
+  - "osz"
+holidays: []

@@ -1,0 +1,20 @@
+id: "ann-14-apamese"
+title: "Apamese"
+volume: "annakonyv-kezdetek"
+order: 14
+pageStart: 205
+pageEnd: 220
+summary: "A történet arról szól, milyen különleges dolgokat szeret Anna az apjával közösen csinálni, a közös játéktól és kergetőzéstől az együtt nassolásig."
+characters:
+  - "anna"
+  - "apa"
+  - "peti"
+  - "gergo"
+locations:
+  - "otthon"
+objects: []
+themes:
+  - "mesehallgatas"
+  - "jatszas"
+seasons: []
+holidays: []

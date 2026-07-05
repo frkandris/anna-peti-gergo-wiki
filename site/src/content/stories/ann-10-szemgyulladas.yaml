@@ -1,0 +1,32 @@
+id: "ann-10-szemgyulladas"
+title: "Szemgyulladás"
+volume: "annakonyv-kezdetek"
+order: 10
+pageStart: 139
+pageEnd: 154
+summary: "Anna szeme begyullad, és meg kell tanulnia elfogadni az orvosi vizsgálatot és a napi szemcseppet, amíg felgyógyul."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "peti"
+  - "elemer"
+  - "arisztid"
+locations:
+  - "gyerekszoba"
+  - "nappali"
+  - "eloszoba"
+  - "gyogyszertar"
+objects:
+  - "vattapamacs"
+  - "szemcsepp"
+  - "recept"
+  - "matrica"
+  - "telefon"
+  - "orvosi-taska"
+themes:
+  - "betegseg"
+  - "orvos"
+  - "gondoskodas"
+seasons: []
+holidays: []

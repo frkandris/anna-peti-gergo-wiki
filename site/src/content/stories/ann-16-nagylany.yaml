@@ -1,0 +1,26 @@
+id: "ann-16-nagylany"
+title: "Nagylány"
+volume: "annakonyv-kezdetek"
+order: 16
+pageStart: 239
+pageEnd: 258
+summary: "Anna betölti a tizedik életévét, és a családi születésnapi ünneplés kapcsán szembesül azzal, milyen nagylánnyá cseperedett a babakora óta."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "peti"
+  - "gergo"
+locations:
+  - "otthon"
+objects:
+  - "torta"
+  - "fenykepalbum"
+  - "rozsacsokor"
+themes:
+  - "onallosodas"
+  - "unnep"
+  - "csaladi-esemeny"
+seasons: []
+holidays:
+  - "szuletesnap"

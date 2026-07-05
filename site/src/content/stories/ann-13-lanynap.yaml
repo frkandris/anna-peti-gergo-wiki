@@ -1,0 +1,22 @@
+id: "ann-13-lanynap"
+title: "Lánynap"
+volume: "annakonyv-kezdetek"
+order: 13
+pageStart: 189
+pageEnd: 204
+summary: "Egy fiúkkal teli családban Anna és Anya külön lányprogramot szerveznek, hogy közösen, kettesben töltsenek el egy különleges, csak nekik szóló napot."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "peti"
+  - "gergo"
+locations:
+  - "liget"
+  - "otthon"
+objects: []
+themes:
+  - "unnep"
+  - "csaladi-esemeny"
+seasons: []
+holidays: []

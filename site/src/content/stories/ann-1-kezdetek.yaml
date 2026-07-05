@@ -1,0 +1,42 @@
+id: "ann-1-kezdetek"
+title: "Kezdetek"
+volume: "annakonyv-kezdetek"
+order: 1
+pageStart: 5
+pageEnd: 20
+summary: "Arról szól, hogyan alapít családot két fiatal, és milyen izgatott várakozás előzi meg az első kisbaba megérkezését."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "nagymama"
+  - "gyuri-papa"
+  - "dedi-papa"
+  - "juci"
+  - "attila"
+locations:
+  - "egyetem"
+  - "balaton"
+  - "koveskal"
+  - "korhaz"
+  - "otthon"
+objects:
+  - "auto"
+  - "babakocsi"
+  - "kisagy"
+  - "etetoszek"
+  - "kiskad"
+  - "babamerleg"
+  - "autoules"
+  - "polya"
+  - "mosogep"
+  - "forgo"
+  - "fenykepezogep"
+themes:
+  - "csaladi-esemeny"
+  - "szuletes"
+  - "gondoskodas"
+seasons:
+  - "tavasz"
+  - "osz"
+holidays: []

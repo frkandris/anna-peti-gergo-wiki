@@ -1,0 +1,32 @@
+id: "ann-12-szeretlek-peti"
+title: "Szeretlek, Peti!"
+volume: "annakonyv-kezdetek"
+order: 12
+pageStart: 167
+pageEnd: 188
+summary: "A kistestvér miatti féltékenység szeretetté és gondoskodássá alakul, amikor Peti megbetegszik, és Anna megtanulja megosztani vele a játékait."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "peti"
+  - "elemer"
+  - "bori"
+locations:
+  - "gyerekszoba"
+  - "nappali"
+  - "korhaz"
+  - "eloszoba"
+objects:
+  - "kukac"
+  - "lazmero"
+  - "szirup"
+  - "auto"
+themes:
+  - "testverfeltekenyseg"
+  - "gondoskodas"
+  - "betegseg"
+  - "orvos"
+seasons:
+  - "osz"
+holidays: []

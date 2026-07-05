@@ -1,0 +1,31 @@
+id: "ann-5-maskara"
+title: "Maskara"
+volume: "annakonyv-kezdetek"
+order: 5
+pageStart: 69
+pageEnd: 82
+summary: "A kisgyerek beöltözős, jelmezes játékáról, ahogy a szülők cipőit, kalapjait és ruháit felpróbálva, a felnőttek utánzásával fedezi fel az öltözködést."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "cica"
+locations:
+  - "eloszoba"
+  - "gyerekszoba"
+  - "konyha"
+objects:
+  - "cipo"
+  - "esernyo"
+  - "kalap"
+  - "kabat"
+  - "napszemuveg"
+  - "bakancs"
+  - "sal"
+  - "tukor"
+  - "ciposzekreny"
+themes:
+  - "jelmez"
+  - "jatszas"
+seasons: []
+holidays: []

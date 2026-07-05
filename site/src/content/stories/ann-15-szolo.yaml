@@ -1,0 +1,20 @@
+id: "ann-15-szolo"
+title: "Szőlő"
+volume: "annakonyv-kezdetek"
+order: 15
+pageStart: 221
+pageEnd: 238
+summary: "Anna és Anya közösen készítik el a lány szőlőfürt jelmezét egy jelmezes ünnepségre, ahol sokféle mókás beöltözött gyerek gyűlik össze."
+characters:
+  - "anna"
+  - "anya"
+locations:
+  - "otthon"
+objects:
+  - "jelmez"
+  - "lufi"
+themes:
+  - "jatszas"
+  - "unnep"
+seasons: []
+holidays: []

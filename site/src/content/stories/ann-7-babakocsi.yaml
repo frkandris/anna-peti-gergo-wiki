@@ -1,0 +1,33 @@
+id: "ann-7-babakocsi"
+title: "Babakocsi"
+volume: "annakonyv-kezdetek"
+order: 7
+pageStart: 105
+pageEnd: 118
+summary: "A két kisgyerekkel való közlekedés és babakocsizás évszakról évszakra változó nehézségeiről, ahogy a család a megfelelő szállítási megoldást keresi."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "peti"
+locations:
+  - "eloszoba"
+  - "liget"
+  - "szent-istvan-park"
+  - "utca"
+objects:
+  - "babakocsi"
+  - "babahordozo-kendo"
+  - "kenguru"
+  - "utanfuto"
+  - "busz"
+  - "troli"
+  - "lift"
+themes:
+  - "gondoskodas"
+  - "jatszas"
+seasons:
+  - "tel"
+  - "tavasz"
+  - "nyar"
+holidays: []

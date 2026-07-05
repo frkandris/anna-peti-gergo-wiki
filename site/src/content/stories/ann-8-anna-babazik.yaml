@@ -1,0 +1,28 @@
+id: "ann-8-anna-babazik"
+title: "Anna babázik"
+volume: "annakonyv-kezdetek"
+order: 8
+pageStart: 119
+pageEnd: 128
+summary: "A babázásról mint a felnőttek gondoskodásának utánzásáról, ahogy a kislány sok babáját napról napra eteti, öltözteti, fésüli és ápolja."
+characters:
+  - "anna"
+  - "peti"
+  - "bori"
+  - "cica"
+locations:
+  - "gyerekszoba"
+  - "konyha"
+objects:
+  - "babakocsi"
+  - "jatek-kisagy"
+  - "mesekonyv"
+  - "gyurma"
+  - "partedli"
+  - "babaruha"
+themes:
+  - "jatszas"
+  - "gondoskodas"
+  - "etetes"
+seasons: []
+holidays: []

@@ -1,0 +1,32 @@
+id: "ann-11-rajzolj-velem"
+title: "Rajzolj velem!"
+volume: "annakonyv-kezdetek"
+order: 11
+pageStart: 155
+pageEnd: 166
+summary: "Egy esős nyári napon a gyerekek otthon kézműveskednek és rajzolnak, felfedezve, hogy rossz időben is lehet együtt jól játszani."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "peti"
+locations:
+  - "nappali"
+  - "konyha"
+  - "gyerekszoba"
+  - "erkely"
+objects:
+  - "gyurma"
+  - "szinesceruza"
+  - "papir"
+  - "papirrepulo"
+  - "gyongy"
+  - "nyaklanc"
+  - "filctoll"
+  - "festek"
+themes:
+  - "rajzolas"
+  - "jatszas"
+seasons:
+  - "nyar"
+holidays: []

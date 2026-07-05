@@ -1,0 +1,35 @@
+id: "ann-6-nagytestver-leszek"
+title: "Nagytestvér leszek!"
+volume: "annakonyv-kezdetek"
+order: 6
+pageStart: 83
+pageEnd: 104
+summary: "A kistestvér várásáról és megérkezéséről, valamint a nagytestvérré válás élményéről és a féltékenység feloldódásáról az anyai szerep játékos utánzásában."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "peti"
+  - "bori"
+locations:
+  - "haloszoba"
+  - "gyerekszoba"
+  - "konyha"
+  - "eloszoba"
+  - "liget"
+  - "korhaz"
+objects:
+  - "babakocsi"
+  - "kenguru"
+  - "jatek-kenguru"
+  - "jatek-kisagy"
+themes:
+  - "kistestver-erkezese"
+  - "varakozas"
+  - "csaladi-esemeny"
+  - "gondoskodas"
+seasons:
+  - "osz"
+  - "tel"
+  - "tavasz"
+holidays: []

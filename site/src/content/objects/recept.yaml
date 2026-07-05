@@ -1,0 +1,4 @@
+id: "recept"
+name: "Recept"
+category: "object"
+description: "Az orvosi recept, amelyre Elemér doktor felírja a szemcseppet."

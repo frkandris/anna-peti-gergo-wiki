@@ -1,0 +1,22 @@
+id: "ann-4-mesekonyv"
+title: "Mesekönyv"
+volume: "annakonyv-kezdetek"
+order: 4
+pageStart: 57
+pageEnd: 68
+summary: "A könyvek szeretetéről és megbecsüléséről, valamint arról, hogyan válik a közös mesélés a család generációkon átívelő értékévé."
+characters:
+  - "anna"
+  - "anya"
+  - "nagymama"
+locations:
+  - "otthon"
+objects:
+  - "mesekonyv"
+  - "filctoll"
+  - "kifesto"
+themes:
+  - "mesehallgatas"
+  - "gondoskodas"
+seasons: []
+holidays: []

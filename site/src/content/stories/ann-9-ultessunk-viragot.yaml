@@ -1,0 +1,34 @@
+id: "ann-9-ultessunk-viragot"
+title: "Ültessünk virágot!"
+volume: "annakonyv-kezdetek"
+order: 9
+pageStart: 129
+pageEnd: 138
+summary: "A család közösen virágot ültet és gondozza a balkonládákat, megismerve a kertészkedés, a növénygondozás és a közös munka örömét."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "peti"
+locations:
+  - "erkely"
+  - "piac"
+objects:
+  - "virag"
+  - "viragfold"
+  - "viraglada"
+  - "locsolokanna"
+  - "gumikesztyu"
+  - "kisaso"
+  - "troli"
+  - "busz"
+  - "repulo"
+themes:
+  - "kerteszkedes"
+  - "gondoskodas"
+  - "csaladi-esemeny"
+  - "evszakok"
+seasons:
+  - "tavasz"
+  - "nyar"
+holidays: []

@@ -1,0 +1,27 @@
+id: "ann-3-nem-alszom"
+title: "Nem alszom!"
+volume: "annakonyv-kezdetek"
+order: 3
+pageStart: 39
+pageEnd: 56
+summary: "A kisbabák éjszakai alvási nehézségeiről és a kimerült szülők kereséséről, hogyan segíthetnék gyermeküket nyugodtabb pihenéshez."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "nagymama"
+  - "vedono"
+  - "szomszed-neni"
+locations:
+  - "otthon"
+objects:
+  - "kisagy"
+  - "babakocsi"
+  - "cumi"
+  - "takaro"
+  - "forgo"
+themes:
+  - "alvas"
+  - "gondoskodas"
+seasons: []
+holidays: []
