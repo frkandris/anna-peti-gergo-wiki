@@ -1,0 +1,24 @@
+id: "pet-8-homokozo"
+title: "Homokozó"
+volume: "petikonyv-gezenguzok"
+order: 8
+pageStart: 105
+pageEnd: 118
+summary: "A homokozás önfeledt élményéről a nagymama kertjében, ahol a testvérek homokvárat építenek, gödröt ásnak, vízzel locsolják a homokot, majd alaposan összemaszatolják magukat."
+characters:
+  - "peti"
+  - "anna"
+  - "nagymama"
+locations:
+  - "kert"
+objects:
+  - "lapat"
+  - "gereblye"
+  - "vodor"
+  - "szita"
+  - "homokforma"
+  - "homokvar"
+themes:
+  - "jatszas"
+seasons: []
+holidays: []

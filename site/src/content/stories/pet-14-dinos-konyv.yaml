@@ -1,0 +1,28 @@
+id: "pet-14-dinos-konyv"
+title: "Dinós könyv"
+volume: "petikonyv-gezenguzok"
+order: 14
+pageStart: 195
+pageEnd: 208
+summary: "Arról, hogyan érkezik meg a legkisebb testvér a családba, és milyen nehéz, mégis fontos megtanulni osztozni a legféltettebb kincseken, játékokon."
+characters:
+  - "peti"
+  - "anna"
+  - "gergo"
+  - "emoke-neni"
+  - "pisti-bacsi"
+locations:
+  - "otthon"
+objects:
+  - "dinos-konyv"
+  - "mesekonyv"
+  - "epitokocka"
+  - "kisauto"
+  - "babakocsi"
+themes:
+  - "csaladi-esemeny"
+  - "dinoszauruszok"
+  - "jatszas"
+seasons: []
+holidays:
+  - "szuletesnap"

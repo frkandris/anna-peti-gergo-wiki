@@ -1,0 +1,28 @@
+id: "pet-4-hintazzunk"
+title: "Hintázzunk!"
+volume: "petikonyv-gezenguzok"
+order: 4
+pageStart: 45
+pageEnd: 56
+summary: "Őszi séták a parkban, a lehulló levelek és termések gyűjtögetése, és a kisgyerek legnagyobb öröme, a hintázás."
+characters:
+  - "anya"
+  - "anna"
+  - "peti"
+locations:
+  - "varosliget"
+  - "ovoda"
+  - "jatszoter"
+objects:
+  - "babakocsi"
+  - "hinta"
+  - "falevel"
+  - "gesztenye"
+  - "toboz"
+  - "sal"
+themes:
+  - "jatszas"
+  - "gondoskodas"
+seasons:
+  - "osz"
+holidays: []

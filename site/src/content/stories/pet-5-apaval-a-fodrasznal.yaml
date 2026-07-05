@@ -1,0 +1,26 @@
+id: "pet-5-apaval-a-fodrasznal"
+title: "Apával a fodrásznál"
+volume: "petikonyv-gezenguzok"
+order: 5
+pageStart: 57
+pageEnd: 72
+summary: "A kisgyerek első hajvágásairól és arról az élményről, amikor a nagyokat utánozva először mehet el az édesapjával a fodrászhoz, hogy levágják hosszú fürtjeit."
+characters:
+  - "peti"
+  - "anya"
+  - "apa"
+  - "fodrasz"
+locations:
+  - "eloszoba"
+  - "nappali"
+  - "fodraszat"
+objects:
+  - "ollo"
+  - "tukor"
+  - "fesu"
+themes:
+  - "hajvagas"
+  - "higiene"
+seasons:
+  - "nyar"
+holidays: []

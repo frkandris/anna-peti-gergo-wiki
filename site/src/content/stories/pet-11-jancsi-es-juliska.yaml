@@ -1,0 +1,29 @@
+id: "pet-11-jancsi-es-juliska"
+title: "Jancsi és Juliska"
+volume: "petikonyv-gezenguzok"
+order: 11
+pageStart: 147
+pageEnd: 164
+summary: "Az óvodakezdés és a farsangi jelmezválasztás izgalmáról, ahogy a testvérpár közösen dönti el, milyen mesebeli figurának öltözzön be a nagy jelmezbálra."
+characters:
+  - "peti"
+  - "anna"
+  - "anya"
+  - "cica"
+  - "ovono"
+locations:
+  - "ovoda"
+objects:
+  - "jelmez"
+  - "kosar"
+  - "mezeskalacs"
+  - "perec"
+  - "kisauto"
+themes:
+  - "jelmez"
+  - "mesejatek"
+  - "jatszas"
+seasons:
+  - "tel"
+holidays:
+  - "farsang"

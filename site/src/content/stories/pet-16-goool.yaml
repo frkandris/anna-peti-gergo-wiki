@@ -1,0 +1,29 @@
+id: "pet-16-goool"
+title: "Góóóóól!"
+volume: "petikonyv-gezenguzok"
+order: 16
+pageStart: 233
+pageEnd: 250
+summary: "Arról, mennyire szereti a kisfiú a focit, és milyen boldogan rúgja a labdát a barátaival az oviban, az iskolaudvaron és a családjával is."
+characters:
+  - "peti"
+  - "oliver"
+  - "apa"
+  - "anya"
+  - "anna"
+  - "gergo"
+  - "nagymama"
+  - "anna-neni"
+locations:
+  - "ovoda"
+  - "iskola"
+  - "nagymama-haza"
+objects:
+  - "focilabda"
+themes:
+  - "foci"
+  - "baratsag"
+  - "jatszas"
+seasons:
+  - "osz"
+holidays: []

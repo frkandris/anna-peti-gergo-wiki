@@ -1,0 +1,33 @@
+id: "pet-1-megszulettem"
+title: "Megszülettem!"
+volume: "petikonyv-gezenguzok"
+order: 1
+pageStart: 5
+pageEnd: 18
+summary: "Egy új kistestvér érkezése a családba, és annak felfedezése, hogy a testvérek eltérő természetűek, mást szeretnek enni, aludni és játszani."
+characters:
+  - "apa"
+  - "anya"
+  - "anna"
+  - "peti"
+locations:
+  - "otthon"
+  - "furdoszoba"
+  - "konyha"
+objects:
+  - "babakocsi"
+  - "kisagy"
+  - "hintalo"
+  - "labda"
+  - "almapure"
+  - "spenot"
+  - "kad"
+  - "ruhacska"
+themes:
+  - "kistestver-erkezese"
+  - "etetes"
+  - "gondoskodas"
+  - "alvas"
+seasons:
+  - "tel"
+holidays: []

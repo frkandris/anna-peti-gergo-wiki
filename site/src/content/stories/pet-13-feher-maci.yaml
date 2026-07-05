@@ -1,0 +1,26 @@
+id: "pet-13-feher-maci"
+title: "Fehér Maci"
+volume: "petikonyv-gezenguzok"
+order: 13
+pageStart: 179
+pageEnd: 194
+summary: "Arról, hogy egy kisgyerek mennyire ragaszkodik a kedvenc plüssállatához, és milyen nehezen viseli, amíg egy mosás után a szeretett játék végre megszárad."
+characters:
+  - "peti"
+  - "anya"
+  - "anna"
+  - "attila-papa"
+  - "feher-maci"
+  - "sarga-nyuszi"
+locations:
+  - "otthon"
+  - "ovoda"
+objects:
+  - "mosogep"
+  - "hajszarito"
+  - "borond"
+themes:
+  - "jatszas"
+seasons: []
+holidays:
+  - "szuletesnap"

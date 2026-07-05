@@ -1,0 +1,26 @@
+id: "pet-10-pok-a-piros-sapkaban"
+title: "Pók a piros sapkában"
+volume: "petikonyv-gezenguzok"
+order: 10
+pageStart: 131
+pageEnd: 146
+summary: "A kisgyerek természet iránti kíváncsiságáról, ahogy egy piros sapkába költözött pókot türelmesen figyel az apjával, és megtanulja tisztelni a legkisebb élőlényeket is."
+characters:
+  - "peti"
+  - "apa"
+  - "anna"
+  - "anya"
+  - "nagymama"
+locations:
+  - "kert"
+objects:
+  - "piros-sapka"
+  - "esernyo"
+  - "samli"
+  - "pokhalo"
+themes:
+  - "allatok"
+  - "csaladi-esemeny"
+seasons:
+  - "osz"
+holidays: []

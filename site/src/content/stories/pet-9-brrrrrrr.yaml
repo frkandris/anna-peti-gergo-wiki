@@ -1,0 +1,32 @@
+id: "pet-9-brrrrrrr"
+title: "Brrrrrrr..."
+volume: "petikonyv-gezenguzok"
+order: 9
+pageStart: 119
+pageEnd: 130
+summary: "Arról, hogy a kisfiú mennyire rajong a járművekért, és órákig el tud játszani a sokféle munkagéppel és kisautóval, motorhangokat utánozva és pályákat építve nekik."
+characters:
+  - "peti"
+  - "anna"
+  - "anya"
+  - "apa"
+  - "nagypapa"
+locations:
+  - "nappali"
+objects:
+  - "domper"
+  - "markolo"
+  - "betonkevero"
+  - "traktor"
+  - "tuzoltoauto"
+  - "mento"
+  - "rendorauto"
+  - "kamion"
+  - "repulo"
+  - "helikopter"
+  - "kisvonat"
+  - "kisauto"
+themes:
+  - "jatszas"
+seasons: []
+holidays: []

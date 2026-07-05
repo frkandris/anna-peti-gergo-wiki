@@ -1,0 +1,27 @@
+id: "pet-6-peti-jatszik"
+title: "Peti játszik"
+volume: "petikonyv-gezenguzok"
+order: 6
+pageStart: 73
+pageEnd: 88
+summary: "A kisgyerek fantáziadús játékáról, ahogy mindenből – plüssállatokból, játék dínókból, sálból, sőt még az ételből is – önfeledten kitalált játékot és történetet varázsol."
+characters:
+  - "peti"
+  - "anna"
+  - "anya"
+  - "apa"
+locations:
+  - "nappali"
+  - "konyha"
+  - "eloszoba"
+objects:
+  - "plussallat"
+  - "dino"
+  - "sarkany"
+  - "sal"
+  - "pohar"
+  - "kisauto"
+themes:
+  - "jatszas"
+seasons: []
+holidays: []

@@ -1,0 +1,28 @@
+id: "pet-2-partedli"
+title: "Partedli"
+volume: "petikonyv-gezenguzok"
+order: 2
+pageStart: 19
+pageEnd: 32
+summary: "A csecsemő etetésének mindennapjai, az evés körüli maszatolás és annak öröme, ahogy a kisgyerek fokozatosan megtanul önállóan kanállal enni."
+characters:
+  - "anya"
+  - "anna"
+  - "peti"
+  - "boltos-neni"
+locations:
+  - "konyha"
+  - "erkely"
+  - "bolt"
+objects:
+  - "partedli"
+  - "kanal"
+  - "joghurt"
+  - "tal"
+  - "etetoszek"
+  - "spenot"
+themes:
+  - "etetes"
+  - "gondoskodas"
+seasons: []
+holidays: []

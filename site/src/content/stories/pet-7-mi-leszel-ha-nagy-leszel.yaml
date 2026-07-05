@@ -1,0 +1,25 @@
+id: "pet-7-mi-leszel-ha-nagy-leszel"
+title: "Mi leszel, ha nagy leszel?"
+volume: "petikonyv-gezenguzok"
+order: 7
+pageStart: 89
+pageEnd: 104
+summary: "A pályaválasztás gyerekkori játékáról, ahogy a kisgyerek a felnőttek foglalkozásait – orvos, kertész, szakács, űrhajós, építész – végigveszi, és azon tűnődik, mi lesz, ha nagy lesz."
+characters:
+  - "peti"
+  - "anna"
+  - "anya"
+locations:
+  - "nappali"
+  - "konyha"
+  - "erkely"
+objects:
+  - "szakacssapka"
+  - "fakanal"
+  - "labos"
+  - "orvosi-taska"
+  - "locsolokanna"
+themes:
+  - "palyavalasztas"
+seasons: []
+holidays: []

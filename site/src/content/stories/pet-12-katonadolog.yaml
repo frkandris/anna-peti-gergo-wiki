@@ -1,0 +1,26 @@
+id: "pet-12-katonadolog"
+title: "Katonadolog!"
+volume: "petikonyv-gezenguzok"
+order: 12
+pageStart: 165
+pageEnd: 178
+summary: "Arról, hogy a mozgékony kisfiú folyton elesik, felhorzsolja magát vagy beveri a fejét, a család mégis derűs bátorsággal biztatja, hogy semmi baj."
+characters:
+  - "peti"
+  - "anya"
+  - "apa"
+  - "anna"
+  - "nagymama"
+locations:
+  - "nappali"
+  - "kert"
+objects:
+  - "sebtapasz"
+  - "zongora"
+themes:
+  - "jatszas"
+  - "batorsag"
+seasons:
+  - "tavasz"
+  - "nyar"
+holidays: []

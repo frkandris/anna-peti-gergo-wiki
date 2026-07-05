@@ -1,0 +1,33 @@
+id: "pet-3-rumos-suti"
+title: "Rumos süti"
+volume: "petikonyv-gezenguzok"
+order: 3
+pageStart: 33
+pageEnd: 44
+summary: "Egy nyári családi születésnapi ünnepség, ahol a kíváncsi kisgyerek a felnőtteknek szánt, magasra tett finomsághoz is ügyesen hozzáfér."
+characters:
+  - "nagymama"
+  - "nagypapa"
+  - "anya"
+  - "apa"
+  - "anna"
+  - "peti"
+locations:
+  - "kert"
+  - "jatszoter"
+objects:
+  - "rumos-suti"
+  - "sutemeny"
+  - "torta"
+  - "rozsa"
+  - "homokozo"
+  - "csuszda"
+  - "hinta"
+themes:
+  - "sutes-fozes"
+  - "csaladi-esemeny"
+  - "jatszas"
+seasons:
+  - "nyar"
+holidays:
+  - "szuletesnap"

@@ -1,0 +1,38 @@
+id: "pet-15-iskola"
+title: "Iskola"
+volume: "petikonyv-gezenguzok"
+order: 15
+pageStart: 209
+pageEnd: 232
+summary: "Arról, milyen az óvodából iskolába lépni: az elköszönéstől és a készülődéstől a beilleszkedésen át egészen addig, amíg a kisfiú megszereti az iskolát."
+characters:
+  - "peti"
+  - "anna"
+  - "anya"
+  - "apa"
+  - "gergo"
+  - "oliver"
+  - "ovono"
+  - "eras-neni"
+  - "anna-neni"
+locations:
+  - "otthon"
+  - "ovoda"
+  - "iskola"
+objects:
+  - "iskolataska"
+  - "fuzet"
+  - "tolltarto"
+  - "tornazsak"
+  - "focilabda"
+  - "hajo"
+themes:
+  - "iskola-kezdes"
+  - "baratsag"
+  - "jatszas"
+seasons:
+  - "osz"
+  - "tel"
+  - "tavasz"
+holidays:
+  - "szuletesnap"
