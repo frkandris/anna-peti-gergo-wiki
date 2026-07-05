@@ -1,0 +1,27 @@
+id: "isk-3-fogacska"
+title: "Fogacska"
+volume: "irany-az-iskola"
+order: 3
+pageStart: 35
+pageEnd: 44
+summary: "A kisgyerek első fogának megjelenéséről és a tejfogak váltásáról szól, ahogy a család örömmel követi a gyerekek növekedésének mérföldköveit."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+  - "tatabanya"
+objects:
+  - "naplo"
+  - "diszdoboz"
+  - "hintalo"
+  - "labda"
+themes:
+  - "fejlodes"
+  - "csaladi-esemeny"
+seasons:
+  - "nyar"
+holidays: []

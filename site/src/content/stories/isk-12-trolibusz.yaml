@@ -1,0 +1,36 @@
+id: "isk-12-trolibusz"
+title: "Trolibusz"
+volume: "irany-az-iskola"
+order: 12
+pageStart: 175
+pageEnd: 194
+summary: "A tavaszi szünetben a család tömegközlekedéssel járja be Budapestet, megismerve a különféle járműveket és a nagyváros nevezetességeit."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "budapest"
+  - "keleti-palyaudvar"
+  - "kossuth-ter"
+  - "orszaghaz"
+  - "margit-hid"
+  - "ors-vezer-tere"
+  - "astoria"
+  - "cukraszda"
+objects:
+  - "troli"
+  - "villamos"
+  - "busz"
+  - "vonat"
+  - "hajo"
+  - "metro"
+  - "taxi"
+themes:
+  - "kozlekedes"
+  - "kirandulas"
+seasons:
+  - "tavasz"
+holidays: []

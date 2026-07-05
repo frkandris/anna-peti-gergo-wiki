@@ -1,0 +1,4 @@
+id: "strand"
+name: "Strand"
+kind: "real"
+description: "A Balaton-parti strand."

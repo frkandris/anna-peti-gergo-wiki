@@ -1,0 +1,31 @@
+id: "isk-9-kisallatot-szeretnenk"
+title: "Kisállatot szeretnénk!"
+volume: "irany-az-iskola"
+order: 9
+pageStart: 131
+pageEnd: 150
+summary: "A gyerekek házikedvencre vágynak, és a különféle kisállatok révén megtapasztalják a gondoskodás felelősségét, örömét és az elmúlás fájdalmát is."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "hermina"
+  - "pedro"
+  - "lucifer"
+  - "mazsola"
+  - "emoke-neni"
+  - "pisti-bacsi"
+locations:
+  - "kisallatbolt"
+objects:
+  - "akvarium"
+  - "kalitka"
+themes:
+  - "allatok"
+  - "gondoskodas"
+seasons:
+  - "tavasz"
+holidays:
+  - "szuletesnap"

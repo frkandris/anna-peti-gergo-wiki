@@ -1,0 +1,26 @@
+id: "isk-13-margit-sziget"
+title: "Margit-sziget"
+volume: "irany-az-iskola"
+order: 13
+pageStart: 195
+pageEnd: 209
+summary: "A család kirándulni indul a budapesti Margit-szigetre, ahol együtt fedezik fel a park nevezetességeit és a szabadban töltött közös nap élményeit."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "margit-sziget"
+objects:
+  - "auto"
+  - "bringohinto"
+  - "szokokut"
+themes:
+  - "kirandulas"
+  - "allatok"
+  - "jatszas"
+seasons:
+  - "tavasz"
+holidays: []

@@ -1,0 +1,27 @@
+id: "isk-1-hasfajas"
+title: "Hasfájás"
+volume: "irany-az-iskola"
+order: 1
+pageStart: 5
+pageEnd: 20
+summary: "Arról szól, hogyan élik meg a testvérek egy újszülött érkezését, és hogyan vigasztalják közösen a hasfájással küzdő kisbabát."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+  - "korhaz"
+objects:
+  - "labda"
+  - "hintalo"
+  - "bolcso"
+  - "fenykep"
+themes:
+  - "betegseg"
+  - "csaladi-esemeny"
+seasons:
+  - "osz"
+holidays: []

@@ -1,0 +1,29 @@
+id: "isk-15-gergo-egyedul"
+title: "Gergő egyedül!"
+volume: "irany-az-iskola"
+order: 15
+pageStart: 227
+pageEnd: 241
+summary: "A legkisebb gyerek mindent önállóan szeretne csinálni, és lépésről lépésre megtanulja az önállóságot a hétköznapi helyzetekben."
+characters:
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "anna"
+  - "peti"
+locations:
+  - "otthon"
+objects:
+  - "pulover"
+  - "szappan"
+  - "harisnya"
+  - "kukasauto"
+  - "kuka"
+  - "mesekonyv"
+  - "villamos"
+  - "jatekvonat"
+themes:
+  - "onallosag"
+  - "jatszas"
+seasons: []
+holidays: []

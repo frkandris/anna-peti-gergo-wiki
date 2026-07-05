@@ -1,0 +1,33 @@
+id: "isk-5-balatoni-nyaralas"
+title: "Balatoni nyaralás"
+volume: "irany-az-iskola"
+order: 5
+pageStart: 65
+pageEnd: 76
+summary: "Egy nyári balatoni családi nyaralás mindennapjait mutatja be: fürdőzést, homokvárépítést, csónakázást és a szabadban töltött közös élményeket."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "balaton"
+  - "balatonlelle"
+  - "strand"
+objects:
+  - "homokozo-vodor"
+  - "gumicsonak"
+  - "strandlabda"
+  - "uszogumi"
+  - "sakktabla"
+  - "csuszda"
+  - "auto"
+  - "fenykep"
+themes:
+  - "kirandulas"
+  - "evszakok"
+  - "jatszas"
+seasons:
+  - "nyar"
+holidays: []

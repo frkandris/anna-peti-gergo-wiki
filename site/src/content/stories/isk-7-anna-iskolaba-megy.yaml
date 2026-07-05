@@ -1,0 +1,34 @@
+id: "isk-7-anna-iskolaba-megy"
+title: "Anna iskolába megy"
+volume: "irany-az-iskola"
+order: 7
+pageStart: 97
+pageEnd: 117
+summary: "Arról szól, milyen izgalmas és kicsit ijesztő egy kislány számára az első iskolai nap, az új tanítók, osztálytársak és tantárgyak megismerése."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "peti"
+  - "gergo"
+  - "irma-neni"
+  - "rita-neni"
+  - "eva-neni"
+  - "violetta-neni"
+  - "kata-neni"
+  - "igazgato-neni"
+  - "picur"
+locations:
+  - "iskola"
+  - "varosliget"
+objects:
+  - "iskolataska"
+  - "tolltarto"
+  - "fuzet"
+themes:
+  - "iskola-kezdes"
+  - "tanulas"
+  - "kirandulas"
+seasons:
+  - "osz"
+holidays: []

@@ -1,0 +1,25 @@
+id: "isk-10-szankozzunk"
+title: "Szánkózzunk!"
+volume: "irany-az-iskola"
+order: 10
+pageStart: 151
+pageEnd: 162
+summary: "A család egy napfényes téli napon a ligetbe indul szánkózni, és a havas dombon együtt élik át a csúszkálás és a hóemberépítés örömét."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "liget"
+objects:
+  - "szanko"
+  - "hoember"
+themes:
+  - "kirandulas"
+  - "jatszas"
+  - "evszakok"
+seasons:
+  - "tel"
+holidays: []

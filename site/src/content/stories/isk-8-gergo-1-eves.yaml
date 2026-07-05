@@ -1,0 +1,33 @@
+id: "isk-8-gergo-1-eves"
+title: "Gergő 1 éves"
+volume: "irany-az-iskola"
+order: 8
+pageStart: 119
+pageEnd: 129
+summary: "Arról szól, hogyan fedezi fel a járni tanuló legkisebb gyerek a különféle járműveket, és hogyan ünneplik meg a családban az első születésnapját."
+characters:
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "anna"
+  - "peti"
+locations:
+  - "stefania-ut"
+  - "hungaria-korut"
+  - "otthon"
+objects:
+  - "babakocsi"
+  - "kukasauto"
+  - "kisauto"
+  - "tuzoltoauto"
+  - "rendorauto"
+  - "motor"
+  - "autoszallito"
+  - "torta"
+themes:
+  - "jarmuvek"
+  - "csaladi-esemeny"
+  - "sutes-fozes"
+seasons: []
+holidays:
+  - "szuletesnap"

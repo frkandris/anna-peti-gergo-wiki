@@ -1,0 +1,32 @@
+id: "isk-4-delutani-alvas"
+title: "Délutáni alvás"
+volume: "irany-az-iskola"
+order: 4
+pageStart: 45
+pageEnd: 64
+summary: "Arról szól, milyen nehéz a gyerekeket délután lefektetni egy esti program előtt, és mi történik, amikor mégsem alszanak el időben."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "eniko"
+locations:
+  - "otthon"
+  - "eniko-haza"
+objects:
+  - "epitokocka"
+  - "ajandek"
+  - "torta"
+  - "lufi"
+  - "lampa"
+  - "ujsag"
+  - "auto"
+themes:
+  - "alvas"
+  - "unnep"
+  - "jatszas"
+seasons: []
+holidays:
+  - "szuletesnap"

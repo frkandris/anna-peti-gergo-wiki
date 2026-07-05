@@ -1,0 +1,25 @@
+id: "isk-2-gergo-mindent-tonkretesz"
+title: "Gergő mindent tönkretesz"
+volume: "irany-az-iskola"
+order: 2
+pageStart: 21
+pageEnd: 34
+summary: "A kúszni-mászni kezdő kisbaba mindenhez hozzányúl és véletlenül tönkretesz dolgokat, a család pedig megtanulja türelemmel kezelni a legkisebb testvért."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+locations:
+  - "otthon"
+objects:
+  - "markolo"
+  - "toll"
+  - "mesekonyv"
+  - "buborek"
+  - "labda"
+themes:
+  - "jatszas"
+  - "csaladi-esemeny"
+seasons: []
+holidays: []

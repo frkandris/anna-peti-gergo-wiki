@@ -1,0 +1,27 @@
+id: "isk-14-hancur-apaval"
+title: "Hancúr apával"
+volume: "irany-az-iskola"
+order: 14
+pageStart: 211
+pageEnd: 225
+summary: "A gyerekek édesapjukkal önfeledten birkóznak és hancúroznak, megélve a szülővel közös, testközeli játék és móka örömét."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "apa"
+  - "anya"
+locations:
+  - "otthon"
+objects:
+  - "labda"
+  - "konyv"
+  - "alma"
+  - "parna"
+  - "kisauto"
+  - "jatekvonat"
+  - "fenykepezogep"
+themes:
+  - "jatszas"
+seasons: []
+holidays: []

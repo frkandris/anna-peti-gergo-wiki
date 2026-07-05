@@ -1,0 +1,25 @@
+id: "isk-11-sussunk-mezeskalacsot"
+title: "Süssünk mézeskalácsot!"
+volume: "irany-az-iskola"
+order: 11
+pageStart: 163
+pageEnd: 174
+summary: "December elején a család feldíszíti a lakást, majd közösen mézeskalácsot süt és díszít, megélve a karácsonyi készülődés és a sütés örömét."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "cica"
+locations: []
+objects:
+  - "mezeskalacs"
+  - "suto"
+themes:
+  - "sutes-fozes"
+  - "unnep"
+seasons:
+  - "tel"
+holidays:
+  - "karacsony"

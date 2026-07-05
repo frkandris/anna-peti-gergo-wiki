@@ -1,0 +1,31 @@
+id: "isk-16-vonat"
+title: "Vonat"
+volume: "irany-az-iskola"
+order: 16
+pageStart: 243
+pageEnd: 257
+summary: "A család a vasúttörténeti parkba látogat, ahol a régi mozdonyokat és vonatokat nézik meg, majd együtt utaznak a kerti kisvasúton."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "vasuttorteneti-park"
+objects:
+  - "gozmozdony"
+  - "mozdony"
+  - "vonat"
+  - "kisvasut"
+  - "omnibusz"
+  - "hajtany"
+  - "forditokorong"
+  - "terepasztal"
+  - "oklevel"
+themes:
+  - "kirandulas"
+  - "jatszas"
+seasons:
+  - "tavasz"
+holidays: []

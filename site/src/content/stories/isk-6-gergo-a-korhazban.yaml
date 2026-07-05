@@ -1,0 +1,27 @@
+id: "isk-6-gergo-a-korhazban"
+title: "Gergő a kórházban"
+volume: "irany-az-iskola"
+order: 6
+pageStart: 77
+pageEnd: 93
+summary: "Arról szól, milyen ijesztő, amikor a legkisebb gyerek éjszaka hirtelen megbetegszik, és pár napra kórházba kerül, ahol édesanyja végig vele marad."
+characters:
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "anna"
+  - "peti"
+  - "nagymama"
+  - "virag"
+locations:
+  - "otthon"
+  - "korhaz"
+objects:
+  - "mentoauto"
+  - "parasitogep"
+themes:
+  - "betegseg"
+  - "orvos"
+seasons:
+  - "tel"
+holidays: []
