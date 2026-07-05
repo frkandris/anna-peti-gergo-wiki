@@ -1,19 +1,37 @@
 #!/usr/bin/env python3
-"""Merge per-batch extraction JSON into Astro content collection YAML files.
+"""Merge ALL per-batch extraction JSON into Astro content collection YAML files.
 
-- Dedups entities by id (prefers the richest description).
-- Resolves object category conflicts via OVERRIDES.
+Reads every scratch/extract/*.json (one file per subagent batch, across all
+volumes), then regenerates the entity/story/taxonomy collections from scratch so
+the result is deterministic and idempotent. Volume YAMLs are hand-authored and
+never touched.
+
+- Dedups entities by id (prefers the richest description), globally across volumes.
+- Resolves object category conflicts via CATEGORY_OVERRIDES.
+- Forces canonical name/description/category for specific ids via ENTITY_OVERRIDES.
 - Verifies every story reference resolves to an entity; stubs + warns on dangling.
 - Emits dependency-free YAML (JSON-quoted scalars are valid YAML).
 """
-import json, sys, pathlib
+import json, sys, pathlib, glob
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EX = ROOT / "scratch" / "extract"
 CONTENT = ROOT / "site" / "src" / "content"
 
+# generated collections (volumes are hand-authored, excluded)
+GENERATED = ["stories", "characters", "locations", "objects", "themes", "seasons", "holidays"]
+
 # object id -> forced category when batches disagree
-OVERRIDES = {"babakocsi": "vehicle"}
+CATEGORY_OVERRIDES = {"babakocsi": "vehicle"}
+
+# id -> forced fields (applied after dedup). Keeps entities canonical across volumes.
+ENTITY_OVERRIDES = {
+    # The family's own red car — a distinct entity from the toy car (kisauto).
+    "auto": {"name": "Piros autó", "category": "vehicle",
+             "description": "A család saját piros autója, amivel kirándulni és nyaralni járnak."},
+    "kisauto": {"name": "Kisautó (játék)", "category": "vehicle",
+                "description": "Játékautó a gyerekek játékai között."},
+}
 
 def q(s): return json.dumps(str(s), ensure_ascii=False)
 
@@ -45,9 +63,10 @@ def better(a, b):
 
 def load():
     batches = []
-    for name in ["batchA", "batchB", "batchC", "batchD"]:
-        p = EX / f"{name}.json"
+    for p in sorted(EX.glob("*.json")):
         batches.append(json.loads(p.read_text(encoding="utf-8")))
+    if not batches:
+        sys.exit("No batch JSON files found in scratch/extract/")
     return batches
 
 def main():
@@ -71,10 +90,16 @@ def main():
             holidays.setdefault(h["slug"], h["label"])
 
     # category overrides
-    for oid, cat in OVERRIDES.items():
+    for oid, cat in CATEGORY_OVERRIDES.items():
         if oid in objs: objs[oid]["category"] = cat
 
-    stories.sort(key=lambda s: s.get("order", 0))
+    # entity field overrides (canonical name/desc/category)
+    for tbl in (chars, locs, objs):
+        for eid, fields in ENTITY_OVERRIDES.items():
+            if eid in tbl:
+                tbl[eid] = {**tbl[eid], **fields}
+
+    stories.sort(key=lambda s: (s.get("volume", ""), s.get("order", 0)))
 
     # referential integrity check + stubs
     warnings = []
@@ -92,6 +117,13 @@ def main():
         for th in s["themes"]: themes.setdefault(th, th.replace("-", " ").capitalize())
         for se in s["seasons"]: seasons.setdefault(se, se.capitalize())
         for ho in s["holidays"]: holidays.setdefault(ho, ho.capitalize())
+
+    # clear generated dirs so removed/renamed ids don't linger
+    for dirname in GENERATED:
+        d = CONTENT / dirname
+        if d.exists():
+            for f in d.glob("*.yaml"):
+                f.unlink()
 
     # write files
     def write(dirname, entries, key="id"):
