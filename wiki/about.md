@@ -1,34 +1,41 @@
 ---
 type: "Guide"
-title: "Anna, Peti, Gergő wiki — a tudáskatalógusról"
-description: "Mi ez az OKF-csomag és hogyan tartsd karban."
+title: "Anna, Peti, Gergő wiki — a tudáskatalógusról (LLM wiki)"
+description: "Mi ez a wiki/ mappa, mire való, és hogyan tartsd karban."
+tags: ["meta", "okf", "karbantartas"]
 timestamp: "2026-07-05"
 ---
 
-# Anna, Peti, Gergő wiki — a tudáskatalógusról
+# Anna, Peti, Gergő wiki — a tudáskatalógusról (LLM wiki)
 
-Bartos Erika Anna, Peti, Gergő meséinek nem hivatalos, rajongói referencia-katalógusa — melyik mese melyik kötetben, kik szerepelnek, hol játszódik, miről szól.
+Ez a `wiki/` mappa a **projekt és a technikai működés** LLM-barát tudásbázisa —
+annak, aki (ember vagy ügynök) a repón dolgozik. **Nem** a mesetartalmat
+katalogizálja; azt maga a weboldal teszi (`site/`).
 
-Ez a mappa (`wiki/`) egy **OKF (Open Knowledge Format)** tudáscsomag: emberi és
-gépi (LLM/ügynök) olvasásra egyaránt alkalmas, verziókövetésben diffelhető
-markdown-fájlok YAML frontmatterrel. Minden koncepció (kötet, mese, szereplő,
-helyszín, tárgy, téma, évszak, ünnep) külön fájl, kereszthivatkozásokkal.
+Formátum: **OKF (Open Knowledge Format)** — markdown + YAML frontmatter, minden
+koncepció külön fájl. Minta: Andrej Karpathy LLM-wiki gondolata, három réteggel:
 
-## Három réteg (Karpathy LLM-wiki mintája)
-1. **Nyers források** — a beszkennelt könyvek (`pdfs/`, a repóból kihagyva, jogvédett).
-2. **Forrás-igazság** — `site/src/content/` (Zod-sémával validált YAML).
-3. **Ez a wiki** — a 2. rétegből *generált*, LLM-barát tudáscsomag.
+1. **Nyers réteg** — a forráskód és a jogvédett szkennek (`pdfs/`, gitignore).
+2. **Forrás-igazság** — `site/src/content/` (Zod-sémával validált YAML), lásd
+   [data-model](data-model.md).
+3. **Ez a wiki** — a *hogyan-működik* réteg, ami az idővel bővül.
+
+## Tartalom
+- [Áttekintés](overview.md) — mi ez a projekt, célok, jog
+- [Architektúra](architecture.md) — „adathalmaz, nem dokumentumok"
+- [Repo-felépítés](repo-structure.md)
+- [Adatmodell](data-model.md) — entitások, szótár, slug/címke konvenció
+- [Extrakciós pipeline](pipeline-extraction.md) — PDF → oldalkép → ügynök → JSON
+- [Merge script](merge-script.md) — `merge_extract.py` kanonikus szabályai
+- [Astro oldal](site-astro.md) — oldalak, kereső, szűrők
+- [Deploy](deploy.md) — GitHub Actions → Pages
+- [Konvenciók](conventions.md) — ékezetek, slugok, csak-metaadat
+- [Runbook: új kötet hozzáadása](runbook-add-volume.md)
 
 ## Karbantartás
-- **Ne szerkeszd kézzel** a `wiki/` fájljait — generált. Módosíts a
-  `site/src/content/`-ben, majd futtasd: `python3 scripts/gen_okf_wiki.py`.
-- **Ingest** (új kötet): `scratch/extract/*.json` → `scripts/merge_extract.py` →
-  `scripts/gen_okf_wiki.py`.
-- **Lint**: a build (`npm run build`) elbukik lógó hivatkozáson; a merge
-  jelzi a dangling refeket.
+Ha a projekt működése változik (script, séma, pipeline), **frissítsd az érintett
+koncepció-fájlt** ebben a mappában. A repo-specifikus számokat és a vázat a
+`scripts/gen_project_wiki.py` generálja — a prózát abban a scriptben szerkeszd,
+majd futtasd: `python3 scripts/gen_project_wiki.py`.
 
-## Jogi
-Nem hivatalos, rajongói referencia. Szerző és jogtulajdonos: **Bartos Erika**.
-Csak metaadat és saját szavas összefoglalók — a mesék szövege/képei nem szerepelnek.
-
-Testvéroldal: [Bogyó és Babóca wiki](https://frkandris.github.io/bogyo-es-baboca-wiki/).
+Testvér-repó: [Bogyó és Babóca wiki](https://github.com/frkandris/bogyo-es-baboca-wiki) — ugyanez a tech, közös pipeline.
