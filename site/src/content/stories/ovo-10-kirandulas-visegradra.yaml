@@ -1,0 +1,29 @@
+id: "ovo-10-kirandulas-visegradra"
+title: "Kirándulás Visegrádra"
+volume: "irany-az-ovoda"
+order: 10
+pageStart: 139
+pageEnd: 152
+summary: "A család Visegrádra kirándul: a mese a királyi palota és a vár felfedezéséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+locations:
+  - "visegrad"
+  - "visegradi-palota"
+  - "duna"
+  - "salamon-torony"
+objects:
+  - "auto"
+  - "hajo"
+  - "kard"
+  - "herkules-kut"
+themes:
+  - "kirandulas"
+  - "csaladi-esemeny"
+  - "evszakok"
+seasons:
+  - "tavasz"
+holidays: []

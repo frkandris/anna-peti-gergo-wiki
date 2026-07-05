@@ -1,0 +1,27 @@
+id: "ovo-12-fogmosas"
+title: "Fogmosás"
+volume: "irany-az-ovoda"
+order: 12
+pageStart: 167
+pageEnd: 186
+summary: "Anna nem szeret fogat mosni: a mese a fogmosás megszerettetéséről és a helyes higiéniáról szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+objects:
+  - "fogkefe"
+  - "fogkrem"
+  - "gumicukor"
+  - "epitokockak"
+  - "mesekonyv"
+  - "furdokad"
+themes:
+  - "higiene"
+  - "fogmosas"
+  - "csaladi-esemeny"
+seasons: []
+holidays: []

@@ -1,0 +1,37 @@
+id: "ovo-13-vidampark"
+title: "Vidámpark"
+volume: "irany-az-ovoda"
+order: 13
+pageStart: 187
+pageEnd: 207
+summary: "Anna négyéves születésnapján a család a vidámparkba megy: a mese a születésnapról és a vidámparki élményekről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "bambi"
+locations:
+  - "otthon"
+  - "vidampark"
+  - "varosliget"
+  - "allatkert"
+objects:
+  - "torta"
+  - "ajandek"
+  - "korhinta"
+  - "oriaskerek"
+  - "hullamvasut"
+  - "dodzsem"
+  - "vonat"
+themes:
+  - "jatszas"
+  - "vidampark"
+  - "csaladi-esemeny"
+  - "unnep"
+  - "kirandulas"
+  - "evszakok"
+seasons:
+  - "osz"
+holidays:
+  - "szuletesnap"

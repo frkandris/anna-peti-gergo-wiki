@@ -1,0 +1,22 @@
+id: "ovo-5-hinta-palinta"
+title: "Hinta-palinta"
+volume: "irany-az-ovoda"
+order: 5
+pageStart: 67
+pageEnd: 77
+summary: "Anna és Peti otthoni hintákon tanulnak hintázni: a mese a hintázás öröméről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+objects:
+  - "hinta"
+themes:
+  - "jatszas"
+  - "betegseg"
+  - "alvas"
+seasons: []
+holidays: []

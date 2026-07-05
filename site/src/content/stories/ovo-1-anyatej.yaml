@@ -1,0 +1,25 @@
+id: "ovo-1-anyatej"
+title: "Anyatej"
+volume: "irany-az-ovoda"
+order: 1
+pageStart: 3
+pageEnd: 20
+summary: "Peti születése után Anna féltékeny lesz a szoptatásra: a mese a testvérféltékenységről és a figyelem megosztásáról szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+objects:
+  - "baba"
+  - "konyv"
+themes:
+  - "kistestver-erkezese"
+  - "testverfeltekenyseg"
+  - "etetes"
+  - "gondoskodas"
+seasons:
+  - "tel"
+holidays: []

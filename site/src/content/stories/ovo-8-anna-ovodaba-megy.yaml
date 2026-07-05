@@ -1,0 +1,32 @@
+id: "ovo-8-anna-ovodaba-megy"
+title: "Anna óvodába megy"
+volume: "irany-az-ovoda"
+order: 8
+pageStart: 105
+pageEnd: 120
+summary: "Anna hároméves korában óvodás lesz: a mese az óvodakezdésről és az első nap izgalmairól szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "kinga"
+  - "julika"
+  - "emoke"
+  - "klari"
+locations:
+  - "ovoda"
+objects:
+  - "zsak"
+  - "babakocsi"
+  - "csuszda"
+  - "hinta"
+  - "homokozo"
+themes:
+  - "ovoda-kezdes"
+  - "jatszas"
+  - "evszakok"
+  - "alvas"
+seasons:
+  - "osz"
+holidays: []

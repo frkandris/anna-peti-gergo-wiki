@@ -1,0 +1,28 @@
+id: "ovo-3-vizibicikli"
+title: "A sárga vízibicikli"
+volume: "irany-az-ovoda"
+order: 3
+pageStart: 35
+pageEnd: 46
+summary: "A család a Városligetben sárga vízibiciklit bérel: a mese egy tavaszi kirándulásról és egy új jármű felfedezéséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "csonakos-bacsi"
+locations:
+  - "varosliget"
+  - "vajdahunyad-vara"
+  - "varosligeti-to"
+objects:
+  - "babakocsi"
+  - "vizibicikli"
+  - "csonak"
+themes:
+  - "kirandulas"
+  - "csaladi-esemeny"
+  - "allatok"
+seasons:
+  - "tavasz"
+holidays: []

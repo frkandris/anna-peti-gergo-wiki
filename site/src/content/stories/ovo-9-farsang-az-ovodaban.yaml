@@ -1,0 +1,30 @@
+id: "ovo-9-farsang-az-ovodaban"
+title: "Farsang az óvodában"
+volume: "irany-az-ovoda"
+order: 9
+pageStart: 121
+pageEnd: 138
+summary: "Az óvodában farsangi mulatságot rendeznek: a mese a jelmezekről és a közös ünneplésről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "julika"
+  - "akos"
+locations:
+  - "ovoda"
+objects:
+  - "jelmez"
+  - "vasvilla"
+  - "kosar"
+  - "plakat"
+themes:
+  - "unnep"
+  - "jelmez"
+  - "farsang"
+  - "barkacsolas"
+  - "jatszas"
+seasons:
+  - "tel"
+holidays: []

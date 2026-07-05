@@ -1,0 +1,31 @@
+id: "ovo-7-koszoru"
+title: "Koszorú"
+volume: "irany-az-ovoda"
+order: 7
+pageStart: 91
+pageEnd: 103
+summary: "A család a nagyszülőkhöz utazik, ahol Anna virágkoszorút fon: a mese a testvéri osztozkodásról és a kibékülésről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "nagymama"
+  - "nagypapa"
+locations:
+  - "otthon"
+  - "szabadsag-hid"
+  - "erd"
+objects:
+  - "auto"
+  - "viragkoszoru"
+  - "takaro"
+themes:
+  - "kirandulas"
+  - "csaladi-esemeny"
+  - "dackorszak"
+  - "evszakok"
+  - "barkacsolas"
+seasons:
+  - "tavasz"
+holidays: []

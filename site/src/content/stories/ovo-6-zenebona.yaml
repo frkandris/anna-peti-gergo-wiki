@@ -1,0 +1,24 @@
+id: "ovo-6-zenebona"
+title: "Zenebona"
+volume: "irany-az-ovoda"
+order: 6
+pageStart: 79
+pageEnd: 89
+summary: "A gyerekek kipróbálják Anya hangszereit: a mese a zene és a hangszerek felfedezéséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+objects:
+  - "hegedu"
+  - "gitar"
+  - "furulya"
+  - "zongora"
+themes:
+  - "zene"
+  - "jatszas"
+seasons: []
+holidays: []

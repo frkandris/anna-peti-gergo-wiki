@@ -1,0 +1,24 @@
+id: "ovo-4-babszinhaz"
+title: "Bábszínház"
+volume: "irany-az-ovoda"
+order: 4
+pageStart: 47
+pageEnd: 65
+summary: "A család bábszínházba megy egy mókusos előadásra: a mese a színházi élményről és a bábokról szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "misi-mokus"
+locations:
+  - "otthon"
+  - "babszinhaz"
+objects:
+  - "jegy"
+  - "bab"
+themes:
+  - "szinhaz"
+  - "jatszas"
+seasons: []
+holidays: []

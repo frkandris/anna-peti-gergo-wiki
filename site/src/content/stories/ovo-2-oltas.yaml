@@ -1,0 +1,26 @@
+id: "ovo-2-oltas"
+title: "Oltás"
+volume: "irany-az-ovoda"
+order: 2
+pageStart: 21
+pageEnd: 34
+summary: "A kis Peti megkapja első védőoltását: a mese az orvostól való félelem oldásáról és a bátorságról szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "doktor"
+locations:
+  - "otthon"
+objects:
+  - "orvosi-taska"
+  - "matrica"
+  - "oltasi-konyv"
+themes:
+  - "orvos"
+  - "betegseg"
+  - "gondoskodas"
+seasons:
+  - "tavasz"
+holidays: []
