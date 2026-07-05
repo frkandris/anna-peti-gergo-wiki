@@ -1,0 +1,21 @@
+id: "meg-7-vilagga-megyek"
+title: "Világgá megyek!"
+volume: "megmondalak"
+order: 7
+pageStart: 93
+pageEnd: 110
+summary: "A dühkitörésről és a dackorszakról szól, amikor a gyerek elszökéssel fenyegetőzik egy igazságtalannak érzett helyzet miatt, de a család szeretete megnyugtatja."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+objects: []
+themes:
+  - "duh"
+  - "dackorszak"
+seasons: []
+holidays: []

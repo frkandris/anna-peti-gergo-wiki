@@ -1,0 +1,26 @@
+id: "meg-12-bibibiiii"
+title: "Bibibííííí!"
+volume: "megmondalak"
+order: 12
+pageStart: 173
+pageEnd: 184
+summary: "Arról szól, milyen fájó a legkisebbnek, amikor a nagyobbak elveszik és csúfolódva dobálják a kedvenc alvókáját, és miért fontos a bocsánatkérés."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "debrecen"
+  - "park"
+objects:
+  - "rongyi"
+  - "pad"
+  - "kokocka"
+themes:
+  - "nyafogas"
+  - "testverfeltekenyseg"
+seasons:
+  - "tavasz"
+holidays: []

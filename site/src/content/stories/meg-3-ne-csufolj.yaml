@@ -1,0 +1,26 @@
+id: "meg-3-ne-csufolj"
+title: "Ne csúfolj!"
+volume: "megmondalak"
+order: 3
+pageStart: 37
+pageEnd: 50
+summary: "Arról szól, mennyire bántó és rossz érzés, amikor valakit kigúnyolnak vagy csúfolnak, és hogyan rontja el a csúfolódás a közös örömöt."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+locations:
+  - "konyha"
+objects:
+  - "habvero"
+  - "tal"
+  - "konyv"
+  - "szobanoveny"
+  - "teherauto"
+  - "vonat"
+themes:
+  - "csufolodas"
+  - "duh"
+seasons: []
+holidays: []

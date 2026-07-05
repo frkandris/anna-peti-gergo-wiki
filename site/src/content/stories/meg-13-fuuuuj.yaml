@@ -1,0 +1,26 @@
+id: "meg-13-fuuuuj"
+title: "Fúúúúúj!"
+volume: "megmondalak"
+order: 13
+pageStart: 185
+pageEnd: 200
+summary: "Arról szól, milyen az undor érzése, és hogy a nagyok utánzása néha kellemetlen meglepetést és büdös következményeket hoz."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "gyerekszoba"
+  - "konyha"
+  - "nappali"
+objects:
+  - "iskolataska"
+  - "banan"
+  - "kisvonat"
+themes:
+  - "undor"
+  - "iskolakezdes"
+seasons: []
+holidays: []

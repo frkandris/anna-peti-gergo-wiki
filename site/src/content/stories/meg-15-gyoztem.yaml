@@ -1,0 +1,23 @@
+id: "meg-15-gyoztem"
+title: "Győztem!"
+volume: "megmondalak"
+order: 15
+pageStart: 217
+pageEnd: 234
+summary: "A testvérek közötti versengésről és játékos vetélkedésről, amikor mindannyian elsők szeretnének lenni, és a vesztes nehezen viseli a kudarcot."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+locations:
+  - "gyumolcsos"
+objects:
+  - "kismotor"
+  - "kosar"
+  - "alma"
+themes:
+  - "versenges"
+  - "jatszas"
+seasons:
+  - "osz"
+holidays: []

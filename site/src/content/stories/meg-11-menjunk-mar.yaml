@@ -1,0 +1,27 @@
+id: "meg-11-menjunk-mar"
+title: "Menjünk már!"
+volume: "megmondalak"
+order: 11
+pageStart: 157
+pageEnd: 172
+summary: "Arról szól, milyen feszültség támad a siető, türelmetlen szülő és a gyerekek között, akik minden lépésnél megállnának játszani és felfedezni."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+locations:
+  - "utca"
+  - "hivatal"
+objects:
+  - "pitypang"
+  - "kavics"
+  - "faag"
+  - "bronzszobor"
+  - "troli"
+themes:
+  - "turelmetlenseg"
+  - "jatszas"
+seasons:
+  - "tavasz"
+holidays: []

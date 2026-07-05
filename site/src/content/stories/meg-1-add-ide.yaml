@@ -1,0 +1,28 @@
+id: "meg-1-add-ide"
+title: "Add ide!"
+volume: "megmondalak"
+order: 1
+pageStart: 5
+pageEnd: 20
+summary: "Arról szól, milyen feszültséget és haragot kelt a testvérek között, ha valaki elveszi vagy magának követeli a másik holmiját, és miért fontos az osztozkodás."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "nappali"
+objects:
+  - "magno"
+  - "labda"
+  - "lufi"
+  - "konyv"
+  - "szobanoveny"
+  - "villamos"
+themes:
+  - "osztozkodas"
+  - "duh"
+  - "testverfeltekenyseg"
+seasons: []
+holidays: []

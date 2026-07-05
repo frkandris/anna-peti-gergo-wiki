@@ -1,0 +1,30 @@
+id: "meg-10-megmondalak"
+title: "Megmondalak!"
+volume: "megmondalak"
+order: 10
+pageStart: 143
+pageEnd: 156
+summary: "Arról szól, milyen könnyen árulkodnak és vádolják egymást a testvérek, és hogy a másik befeketítése csak feszültséget szül, amíg ki nem derül a félreértés."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "konyha"
+  - "nappali"
+  - "gyerekszoba"
+objects:
+  - "csokigolyo"
+  - "tal"
+  - "konyv"
+  - "labda"
+  - "vonat"
+  - "kisauto"
+themes:
+  - "arulkodas"
+  - "testverfeltekenyseg"
+  - "jatszas"
+seasons: []
+holidays: []

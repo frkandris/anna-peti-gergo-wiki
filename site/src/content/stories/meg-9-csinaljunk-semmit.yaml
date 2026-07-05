@@ -1,0 +1,30 @@
+id: "meg-9-csinaljunk-semmit"
+title: "Csináljunk semmit!"
+volume: "megmondalak"
+order: 9
+pageStart: 125
+pageEnd: 142
+summary: "Arról szól, hogyan válhat az otthon rekedt téli nap unalma közös örömmé, amikor a család együtt tölti az időt, és rájön, hogy jó együtt lenni."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "nappali"
+  - "eloszoba"
+objects:
+  - "kartya"
+  - "domino"
+  - "matrac"
+  - "hintalo"
+  - "vonat"
+  - "hajo"
+themes:
+  - "unalom"
+  - "jatszas"
+  - "csaladi-esemeny"
+seasons:
+  - "tel"
+holidays: []

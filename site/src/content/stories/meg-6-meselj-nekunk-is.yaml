@@ -1,0 +1,22 @@
+id: "meg-6-meselj-nekunk-is"
+title: "Mesélj nekünk is!"
+volume: "megmondalak"
+order: 6
+pageStart: 81
+pageEnd: 92
+summary: "A méltányosságról és a testvérféltékenységről szól, ahogy a nagyobb gyerekek is ugyanolyan esti figyelmet és mesét szeretnének kapni, mint a kicsi."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+objects:
+  - "konyv"
+themes:
+  - "mesehallgatas"
+  - "testverfeltekenyseg"
+seasons: []
+holidays: []

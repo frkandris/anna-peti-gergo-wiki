@@ -1,0 +1,29 @@
+id: "meg-8-csend-legyen"
+title: "Csend legyen!"
+volume: "megmondalak"
+order: 8
+pageStart: 111
+pageEnd: 124
+summary: "A mások iránti figyelmességről szól, arról, hogy közösségi helyen csendben kell lenni, és a hangoskodásnak megvan a maga megfelelő helye."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "muzeum"
+  - "jatszoter"
+objects:
+  - "auto"
+  - "trambulin"
+  - "csuszda"
+  - "hinta"
+  - "homokozo"
+  - "fenykep"
+themes:
+  - "csend"
+  - "jatszas"
+seasons:
+  - "tavasz"
+holidays: []

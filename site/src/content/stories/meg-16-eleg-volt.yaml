@@ -1,0 +1,26 @@
+id: "meg-16-eleg-volt"
+title: "Elég volt!"
+volume: "megmondalak"
+order: 16
+pageStart: 235
+pageEnd: 257
+summary: "Arról, hogyan fogy el az anya türelme, amikor a gyerekek szüntelenül a figyelmét és a közös játékot követelik, míg végül eljut a robbanásig."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+locations:
+  - "eloszoba"
+  - "konyha"
+  - "gyerekszoba"
+objects:
+  - "kisvonat"
+  - "sarkany"
+  - "daralo"
+themes:
+  - "turelmetlenseg"
+  - "duh"
+  - "jatszas"
+seasons: []
+holidays: []

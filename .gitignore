@@ -12,3 +12,7 @@ dist/
 *.render/
 scratch/
 .DS_Store
+
+# iCloud conflict copies (Documents is synced)
+* [0-9].yaml
+* [0-9].json

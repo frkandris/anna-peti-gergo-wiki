@@ -1,0 +1,26 @@
+id: "meg-4-ne-utanozz"
+title: "Ne utánozz!"
+volume: "megmondalak"
+order: 4
+pageStart: 51
+pageEnd: 66
+summary: "Arról szól, milyen bosszantó tud lenni, ha valaki mindenben utánoz minket, és hogyan fajul veszekedéssé a folytonos utánzás a testvérek között."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+locations:
+  - "gyerekszoba"
+objects:
+  - "festek"
+  - "ecset"
+  - "doboz"
+  - "labda"
+  - "busz"
+  - "kisauto"
+themes:
+  - "utanzas"
+  - "harag"
+seasons: []
+holidays: []

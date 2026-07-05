@@ -1,0 +1,31 @@
+id: "meg-14-indulunk"
+title: "Indulunk!"
+volume: "megmondalak"
+order: 14
+pageStart: 201
+pageEnd: 216
+summary: "A reggeli készülődés és öltözködés kapkodásáról, a testvérek versengéséről és a szülők türelmének próbájáról, amikor mindenki időben el akar indulni."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "eloszoba"
+  - "gyerekszoba"
+  - "nappali"
+objects:
+  - "sal"
+  - "sapka"
+  - "kesztyu"
+  - "csizma"
+  - "iskolataska"
+  - "villamos"
+themes:
+  - "oltozkodas"
+  - "turelmetlenseg"
+  - "versenges"
+seasons:
+  - "tel"
+holidays: []

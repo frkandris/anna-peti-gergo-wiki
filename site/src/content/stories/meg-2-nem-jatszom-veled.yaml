@@ -1,0 +1,25 @@
+id: "meg-2-nem-jatszom-veled"
+title: "Nem játszom veled!"
+volume: "megmondalak"
+order: 2
+pageStart: 21
+pageEnd: 36
+summary: "Arról szól, hogyan sértik meg egymást a testvérek egy vita közben, és milyen rossz érzés, amikor duzzogva kizárják egymást a közös játékból."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+locations:
+  - "gyerekszoba"
+objects:
+  - "tarsasjatek"
+  - "dobokocka"
+  - "maci"
+  - "vonat"
+  - "kisauto"
+themes:
+  - "testverfeltekenyseg"
+  - "harag"
+  - "jatszas"
+seasons: []
+holidays: []

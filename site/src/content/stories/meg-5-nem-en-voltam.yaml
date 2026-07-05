@@ -1,0 +1,21 @@
+id: "meg-5-nem-en-voltam"
+title: "Nem én voltam!"
+volume: "megmondalak"
+order: 5
+pageStart: 67
+pageEnd: 80
+summary: "Az őszinteségről és a közös felelősségvállalásról szól, amikor a testvérek először egymásra mutogatnak, majd rájönnek, hogy mindannyian hibáztak."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+objects: []
+themes:
+  - "hazugsag"
+  - "testvervita"
+seasons: []
+holidays: []
