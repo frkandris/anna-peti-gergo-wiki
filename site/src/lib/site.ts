@@ -8,7 +8,7 @@ export function href(path = '/'): string {
 }
 
 export const SITE = {
-  title: 'Anna, Peti és Gergő Wiki',
+  title: 'Anna, Peti, Gergő Wiki',
   tagline: 'Melyik mese melyik kötetben? — kereshető katalógus szülőknek',
   author: 'Bartos Erika',
   publisher: 'Alexandra Kiadó',
