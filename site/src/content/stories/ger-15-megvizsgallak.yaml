@@ -1,0 +1,22 @@
+id: "ger-15-megvizsgallak"
+title: "Megvizsgállak!"
+volume: "gergokonyv-legkisebbek"
+order: 15
+pageStart: 217
+pageEnd: 231
+summary: "Az orvososdi szerepjáték élményét mutatja be, amikor a gyerekek doktost játszva vizsgálják meg a beteget alakító szülőt a játék orvosi táskával."
+characters:
+  - "gergo"
+  - "peti"
+  - "anya"
+locations: []
+objects:
+  - "orvosi-taska"
+  - "sztetoszkop"
+  - "fecskendo"
+  - "lazmero"
+themes:
+  - "orvos"
+  - "jatszas"
+seasons: []
+holidays: []

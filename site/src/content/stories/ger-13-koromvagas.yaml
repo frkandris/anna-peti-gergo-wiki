@@ -1,0 +1,20 @@
+id: "ger-13-koromvagas"
+title: "Körömvágás"
+volume: "gergokonyv-legkisebbek"
+order: 13
+pageStart: 183
+pageEnd: 197
+summary: "A körömvágás témáját járja körül, és azt, hogyan lehet egy kisgyermek kezdeti félelmét megnyugtatással és játékossággal feloldani a testápolás során."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+locations: []
+objects:
+  - "ollo"
+themes:
+  - "higiene"
+  - "gondoskodas"
+seasons: []
+holidays: []

@@ -1,0 +1,26 @@
+id: "ger-3-kisparna"
+title: "Kispárna"
+volume: "gergokonyv-legkisebbek"
+order: 3
+pageStart: 29
+pageEnd: 46
+summary: "Egy kisgyerek ragaszkodásáról a kedvenc kispárnájához, amelyet mindenhová magával visz, és amely a biztonságos elalváshoz is hozzátartozik."
+characters:
+  - "gergo"
+  - "anna"
+  - "peti"
+  - "anya"
+locations:
+  - "gyerekszoba"
+  - "utca"
+objects:
+  - "kisparna"
+  - "takaro"
+  - "troli"
+themes:
+  - "alvas"
+  - "gondoskodas"
+  - "csaladi-esemeny"
+seasons: []
+holidays:
+  - "szuletesnap"

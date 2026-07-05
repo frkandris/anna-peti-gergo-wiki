@@ -1,0 +1,21 @@
+id: "ger-2-tukor"
+title: "Tükör"
+volume: "gergokonyv-legkisebbek"
+order: 2
+pageStart: 17
+pageEnd: 28
+summary: "Arról, ahogyan a legkisebb gyerek felfedezi a tükörképét, és fokozatosan megérti, hogy a másik baba valójában ő maga."
+characters:
+  - "gergo"
+  - "anna"
+  - "peti"
+  - "anya"
+locations:
+  - "gyerekszoba"
+objects:
+  - "tukor"
+themes:
+  - "jatszas"
+  - "onfelfedezes"
+seasons: []
+holidays: []

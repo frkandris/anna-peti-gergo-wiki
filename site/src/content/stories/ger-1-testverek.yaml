@@ -1,0 +1,23 @@
+id: "ger-1-testverek"
+title: "Testvérek"
+volume: "gergokonyv-legkisebbek"
+order: 1
+pageStart: 5
+pageEnd: 16
+summary: "A család legkisebb tagja és két nagyobb testvére közötti kapcsolatról, valamint arról, hogyan veszik körül figyelmükkel és szórakoztatják a babát."
+characters:
+  - "gergo"
+  - "anna"
+  - "peti"
+  - "anya"
+  - "cica"
+locations:
+  - "gyerekszoba"
+objects:
+  - "lufi"
+themes:
+  - "csaladi-esemeny"
+  - "gondoskodas"
+  - "jatszas"
+seasons: []
+holidays: []

@@ -1,0 +1,22 @@
+id: "ger-6-miert"
+title: "Miért?"
+volume: "gergokonyv-legkisebbek"
+order: 6
+pageStart: 77
+pageEnd: 90
+summary: "A hároméves kor időszaka, amikor a kisgyereket minden érdekli, és a szülő türelmesen válaszol a véget nem érő »miért« kérdésekre."
+characters:
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "madar"
+  - "pava"
+  - "golya"
+locations: []
+objects: []
+themes:
+  - "kerdezes"
+  - "allatok"
+seasons:
+  - "tavasz"
+holidays: []

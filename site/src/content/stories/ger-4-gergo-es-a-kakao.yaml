@@ -1,0 +1,24 @@
+id: "ger-4-gergo-es-a-kakao"
+title: "Gergő és a kakaó"
+volume: "gergokonyv-legkisebbek"
+order: 4
+pageStart: 47
+pageEnd: 60
+summary: "Arról, ahogyan a legkisebb gyerek is be szeretne kapcsolódni testvérei játékába, és a közben adódó kakaós kis malőrről."
+characters:
+  - "gergo"
+  - "anna"
+  - "peti"
+  - "anya"
+locations:
+  - "gyerekszoba"
+objects:
+  - "kakao"
+  - "kosar"
+  - "ceruza"
+themes:
+  - "jatszas"
+  - "etetes"
+  - "gondoskodas"
+seasons: []
+holidays: []

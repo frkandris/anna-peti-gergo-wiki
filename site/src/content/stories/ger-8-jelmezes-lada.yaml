@@ -1,0 +1,26 @@
+id: "ger-8-jelmezes-lada"
+title: "Jelmezes láda"
+volume: "gergokonyv-legkisebbek"
+order: 8
+pageStart: 107
+pageEnd: 118
+summary: "Egy nyári délutánon a testvérek előszedik a jelmezes ládát, és a beöltözős szerepjátékkal évszaktól függetlenül farsangoznak."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "juci"
+locations:
+  - "otthon"
+objects:
+  - "jelmezes-lada"
+  - "jelmez"
+  - "fenykepezogep"
+themes:
+  - "jelmez"
+  - "jatszas"
+  - "farsang"
+seasons:
+  - "nyar"
+holidays: []

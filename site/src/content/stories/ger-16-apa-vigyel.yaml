@@ -1,0 +1,29 @@
+id: "ger-16-apa-vigyel"
+title: "Apa, vigyél!"
+volume: "gergokonyv-legkisebbek"
+order: 16
+pageStart: 233
+pageEnd: 249
+summary: "Azt a helyzetet dolgozza fel, amikor a kisgyermek folyton ölbe kéredzkedik, a szülők pedig gyengéden az önálló gyaloglásra biztatják."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "veszprem"
+  - "balaton"
+  - "veszpremi-allatkert"
+objects:
+  - "auto"
+  - "busz"
+  - "merleg"
+  - "kenyer"
+themes:
+  - "gondoskodas"
+  - "kirandulas"
+  - "onallosag"
+seasons:
+  - "nyar"
+holidays: []

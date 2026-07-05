@@ -1,0 +1,24 @@
+id: "ger-12-szerszamos-lada"
+title: "Szerszámos láda"
+volume: "gergokonyv-legkisebbek"
+order: 12
+pageStart: 167
+pageEnd: 182
+summary: "Közös barkácsolás otthon, amelyben az apa a gyerekek segítségével polcot szerel fel, és megismerkednek a szerszámosláda tartalmával."
+characters:
+  - "apa"
+  - "anya"
+  - "peti"
+  - "gergo"
+  - "anna"
+locations: []
+objects:
+  - "szerszamos-lada"
+  - "csavar"
+  - "kalapacs"
+  - "furo"
+  - "polc"
+themes:
+  - "barkacsolas"
+seasons: []
+holidays: []

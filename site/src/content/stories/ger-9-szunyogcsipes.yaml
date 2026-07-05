@@ -1,0 +1,21 @@
+id: "ger-9-szunyogcsipes"
+title: "Szúnyogcsípés"
+volume: "gergokonyv-legkisebbek"
+order: 9
+pageStart: 119
+pageEnd: 134
+summary: "A nyári szúnyogcsípések kellemetlen viszketése és a testvérek közti civakodás arról, kinek hány csípése van."
+characters:
+  - "peti"
+  - "anna"
+  - "gergo"
+  - "anya"
+locations:
+  - "kert"
+objects:
+  - "krem"
+themes:
+  - "betegseg"
+seasons:
+  - "nyar"
+holidays: []

@@ -1,0 +1,27 @@
+id: "ger-14-hurra-vezetek"
+title: "Hurrá, vezetek!"
+volume: "gergokonyv-legkisebbek"
+order: 14
+pageStart: 199
+pageEnd: 215
+summary: "Arról szól, amikor egy kisfiú az álló autóban ülve vezetést játszik, és közben megismeri a jármű részeit és működését."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "nagymama"
+  - "nagypapa"
+locations:
+  - "erd"
+objects:
+  - "auto"
+  - "terkep"
+themes:
+  - "jatszas"
+  - "kirandulas"
+  - "jarmuvek"
+seasons:
+  - "nyar"
+holidays: []

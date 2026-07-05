@@ -1,0 +1,26 @@
+id: "ger-11-csereljunk"
+title: "Cseréljünk!"
+volume: "gergokonyv-legkisebbek"
+order: 11
+pageStart: 149
+pageEnd: 166
+summary: "Gergő és Anya szerepcserés játéka, amelyben a gyerek játssza a felnőttet, a felnőtt pedig az óvodás kisgyereket."
+characters:
+  - "gergo"
+  - "anya"
+  - "anna"
+  - "peti"
+  - "apa"
+locations:
+  - "ovoda"
+  - "iskola"
+objects:
+  - "aktataska"
+  - "fogkefe"
+themes:
+  - "osztozkodas"
+  - "jatszas"
+  - "ovoda"
+seasons:
+  - "osz"
+holidays: []

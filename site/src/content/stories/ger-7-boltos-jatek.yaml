@@ -1,0 +1,27 @@
+id: "ger-7-boltos-jatek"
+title: "Boltos játék"
+volume: "gergokonyv-legkisebbek"
+order: 7
+pageStart: 91
+pageEnd: 106
+summary: "Egy hideg téli napon otthon kitalált boltos szerepjáték, amely játékosan megismerteti a kicsit a vásárlással és a pénz értékével."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+objects:
+  - "papirpenz"
+  - "merleg"
+  - "gyumolcs"
+  - "jatek"
+  - "vonat"
+themes:
+  - "jatszas"
+  - "vasarlas"
+seasons:
+  - "tel"
+holidays: []

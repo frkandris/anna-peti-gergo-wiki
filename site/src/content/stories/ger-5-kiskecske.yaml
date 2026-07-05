@@ -1,0 +1,27 @@
+id: "ger-5-kiskecske"
+title: "Kiskecske"
+volume: "gergokonyv-legkisebbek"
+order: 5
+pageStart: 61
+pageEnd: 76
+summary: "Egy állatsimogatóban tett kirándulás arról szól, hogyan lehet türelmesen és csöndben közeledni a félénk kisállatokhoz, hogy ne ijedjenek meg."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "kecske"
+  - "csacsi"
+  - "alpaka"
+  - "barany"
+  - "nyuszi"
+locations:
+  - "allatsimogato"
+objects: []
+themes:
+  - "allatok"
+  - "kirandulas"
+seasons:
+  - "osz"
+holidays: []

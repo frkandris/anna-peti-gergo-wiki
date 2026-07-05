@@ -1,0 +1,28 @@
+id: "ger-10-narancshoember"
+title: "Narancshóember"
+volume: "gergokonyv-legkisebbek"
+order: 10
+pageStart: 135
+pageEnd: 148
+summary: "Egy ötletes kézműveskedés, amelyben a gyerekek zöldségekből és narancsokból építenek apró, tréfás hóembereket."
+characters:
+  - "gergo"
+  - "anya"
+  - "gyongyi"
+  - "janka"
+  - "niki"
+  - "evi"
+locations:
+  - "ovoda"
+  - "zoldsegbolt"
+objects:
+  - "hoember"
+  - "narancs"
+  - "sargarepa"
+themes:
+  - "hoember-epites"
+  - "ovoda"
+  - "barkacsolas"
+seasons:
+  - "tel"
+holidays: []
