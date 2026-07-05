@@ -1,0 +1,25 @@
+id: "suss-7-automoso"
+title: "Autómosó"
+volume: "suss-fel-nap"
+order: 7
+pageStart: 85
+pageEnd: 96
+summary: "A sáros családi autót elviszik az autómosóba: a mese a mosás izgalmas lépéseinek felfedezéséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "budapest"
+  - "automoso"
+objects:
+  - "auto"
+  - "kefe"
+themes:
+  - "automoso"
+  - "jatszas"
+seasons:
+  - "tavasz"
+holidays: []

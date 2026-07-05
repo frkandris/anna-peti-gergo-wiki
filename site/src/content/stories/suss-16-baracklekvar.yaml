@@ -1,0 +1,27 @@
+id: "suss-16-baracklekvar"
+title: "Baracklekvár"
+volume: "suss-fel-nap"
+order: 16
+pageStart: 215
+pageEnd: 228
+summary: "A gyerekek a nagymamánál lekvárt főznek: a mese a nyári gyümölcsérésről és a házi befőzésről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "nagymama"
+  - "cica"
+locations: []
+objects:
+  - "sargabarack"
+  - "baracklekvar"
+  - "fazek"
+  - "befottesuveg"
+  - "merokanal"
+  - "cukor"
+themes:
+  - "sutes-fozes"
+  - "csaladi-esemeny"
+seasons:
+  - "nyar"
+holidays: []

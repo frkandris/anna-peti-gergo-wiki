@@ -1,0 +1,30 @@
+id: "suss-1-szilvasvarad"
+title: "Szilvásvárad"
+volume: "suss-fel-nap"
+order: 1
+pageStart: 5
+pageEnd: 18
+summary: "A család Szilvásváradra kirándul: a mese a hegyvidéki természet és az erdei kisvasút felfedezéséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "szilvasvarad"
+  - "szalajka-volgy"
+  - "fatyol-vizeses"
+  - "pisztrangos-to"
+  - "szabadteri-erdeszeti-muzeum"
+  - "lipicai-menes"
+objects:
+  - "auto"
+  - "kisvasut"
+  - "retes"
+themes:
+  - "kirandulas"
+  - "allatok"
+seasons:
+  - "osz"
+holidays: []

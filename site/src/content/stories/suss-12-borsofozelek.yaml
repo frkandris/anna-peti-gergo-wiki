@@ -1,0 +1,24 @@
+id: "suss-12-borsofozelek"
+title: "Borsófőzelék"
+volume: "suss-fel-nap"
+order: 12
+pageStart: 151
+pageEnd: 162
+summary: "A család friss borsót vásárol és főz: a mese a közös főzésről és a zöldségek megismeréséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "piac"
+objects:
+  - "borso"
+  - "tojas"
+  - "kenyer"
+themes:
+  - "sutes-fozes"
+seasons:
+  - "nyar"
+holidays: []

@@ -1,0 +1,31 @@
+id: "suss-8-kod"
+title: "Köd"
+volume: "suss-fel-nap"
+order: 8
+pageStart: 97
+pageEnd: 108
+summary: "A család Szentendrére kirándul ködös időben: a mese arról szól, mi az a köd és hogyan oszlik el."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "kacsa"
+locations:
+  - "budapest"
+  - "szentendre"
+  - "lanchid"
+  - "duna"
+  - "verebfa"
+objects:
+  - "auto"
+  - "hajo"
+  - "kenyer"
+themes:
+  - "idojaras"
+  - "kirandulas"
+  - "allatok"
+seasons:
+  - "tel"
+holidays: []

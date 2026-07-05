@@ -1,0 +1,25 @@
+id: "suss-5-natha"
+title: "Nátha"
+volume: "suss-fel-nap"
+order: 5
+pageStart: 59
+pageEnd: 72
+summary: "A három testvér télen megfázik: a mese a nátha házi gyógyításáról és a beteg gyerekek ápolásáról szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+  - "varosliget"
+objects:
+  - "zsebkendo"
+  - "tea"
+themes:
+  - "betegseg"
+  - "evszakok"
+seasons:
+  - "tel"
+holidays: []

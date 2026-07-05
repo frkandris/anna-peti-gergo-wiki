@@ -1,0 +1,29 @@
+id: "suss-11-hattyu"
+title: "Hattyú"
+volume: "suss-fel-nap"
+order: 11
+pageStart: 139
+pageEnd: 150
+summary: "A család a Balatonhoz utazik: a mese a hattyúk etetéséről és a vízparti madarak megfigyeléséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "balaton"
+  - "keszthely"
+objects:
+  - "auto"
+  - "konyv"
+  - "kenyer"
+  - "hajo"
+  - "vitorlas"
+  - "csonak"
+themes:
+  - "allatok"
+  - "kirandulas"
+seasons:
+  - "tavasz"
+holidays: []

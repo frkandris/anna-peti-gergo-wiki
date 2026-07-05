@@ -1,0 +1,37 @@
+id: "suss-15-lillafured"
+title: "Lillafüred"
+volume: "suss-fel-nap"
+order: 15
+pageStart: 199
+pageEnd: 214
+summary: "A család Lillafüredre kirándul és rokonokat látogat: a mese a bükki táj és a nagycsaládi együttlét öröméről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "emoke"
+  - "pisti"
+  - "nori"
+  - "szabolcs"
+  - "luca"
+  - "kinga"
+locations:
+  - "lillafured"
+  - "palotaszallo"
+  - "anna-vizeses"
+  - "hamori-to"
+  - "anna-barlang"
+  - "miskolc"
+  - "budapest"
+objects:
+  - "auto"
+  - "csonak"
+themes:
+  - "kirandulas"
+  - "csaladi-esemeny"
+  - "jatszas"
+seasons:
+  - "nyar"
+holidays: []

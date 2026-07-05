@@ -1,0 +1,26 @@
+id: "suss-6-hoember"
+title: "Hóember"
+volume: "suss-fel-nap"
+order: 6
+pageStart: 73
+pageEnd: 84
+summary: "A család a behavazott Városligetben hóembert épít: a mese a közös téli játék öröméről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "otthon"
+  - "varosliget"
+objects:
+  - "hoember"
+  - "fenykep"
+themes:
+  - "hoember-epites"
+  - "evszakok"
+  - "jatszas"
+seasons:
+  - "tel"
+holidays: []

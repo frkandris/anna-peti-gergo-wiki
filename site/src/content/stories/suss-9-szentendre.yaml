@@ -1,0 +1,28 @@
+id: "suss-9-szentendre"
+title: "Szentendre"
+volume: "suss-fel-nap"
+order: 9
+pageStart: 109
+pageEnd: 126
+summary: "A család tavasszal Szentendrére kirándul: a mese a festői Duna-parti kisváros felfedezéséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "szentendre"
+  - "duna"
+  - "erzsebet-hid"
+objects:
+  - "auto"
+  - "hajo"
+  - "csonak"
+  - "kavics"
+  - "palacsinta"
+themes:
+  - "kirandulas"
+seasons:
+  - "tavasz"
+holidays: []

@@ -1,0 +1,23 @@
+id: "suss-10-tavasz"
+title: "Tavasz"
+volume: "suss-fel-nap"
+order: 10
+pageStart: 127
+pageEnd: 138
+summary: "A család napsütéses tavaszi napon a Városligetben sétál: a mese a tavasz ébredésének megfigyeléséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "varosliget"
+objects:
+  - "fenykepezogep"
+  - "fenykep"
+themes:
+  - "evszakok"
+seasons:
+  - "tavasz"
+holidays: []

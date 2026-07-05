@@ -1,0 +1,27 @@
+id: "suss-14-apa-laba"
+title: "Apa lába"
+volume: "suss-fel-nap"
+order: 14
+pageStart: 179
+pageEnd: 198
+summary: "Apa kiránduláson megsérti a lábát: a mese a lábadozásról és a beteg családtag felvidításáról szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations: []
+objects:
+  - "auto"
+  - "jeg"
+  - "jarokeret"
+  - "maci"
+  - "kisvonat"
+  - "labda"
+themes:
+  - "kirandulas"
+  - "betegseg"
+seasons:
+  - "nyar"
+holidays: []

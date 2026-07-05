@@ -1,0 +1,26 @@
+id: "suss-2-hogolyozzunk"
+title: "Hógolyózzunk!"
+volume: "suss-fel-nap"
+order: 2
+pageStart: 19
+pageEnd: 32
+summary: "Az első havazás örömére a család a parkban tölti a napot: a mese a téli hó adta játékokról szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "varosliget"
+objects:
+  - "hogolyo"
+  - "sapka"
+  - "sal"
+  - "kesztyu"
+themes:
+  - "hogolyozas"
+  - "jatszas"
+seasons:
+  - "tel"
+holidays: []

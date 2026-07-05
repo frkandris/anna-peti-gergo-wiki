@@ -1,0 +1,25 @@
+id: "suss-3-teli-alom"
+title: "Téli álom"
+volume: "suss-fel-nap"
+order: 3
+pageStart: 33
+pageEnd: 46
+summary: "A család a vadasparkba látogat: a mese arról szól, mely állatok alusszák át a telet."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "budakeszi-vadaspark"
+objects:
+  - "auto"
+themes:
+  - "allatok"
+  - "alvas"
+  - "kirandulas"
+  - "evszakok"
+seasons:
+  - "tel"
+holidays: []

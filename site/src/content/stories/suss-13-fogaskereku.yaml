@@ -1,0 +1,28 @@
+id: "suss-13-fogaskereku"
+title: "Fogaskerekű"
+volume: "suss-fel-nap"
+order: 13
+pageStart: 163
+pageEnd: 178
+summary: "A család a budai hegyekbe kirándul: a mese a hegyre kapaszkodó különleges vasutak megismeréséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "budai-hegyek"
+  - "janos-hegy"
+  - "normafa"
+objects:
+  - "fogaskereku"
+  - "kisvasut"
+  - "mozdony"
+  - "retes"
+themes:
+  - "kirandulas"
+  - "jatszas"
+seasons:
+  - "nyar"
+holidays: []

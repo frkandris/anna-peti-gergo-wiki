@@ -1,0 +1,28 @@
+id: "suss-4-jegcsap"
+title: "Jégcsap"
+volume: "suss-fel-nap"
+order: 4
+pageStart: 47
+pageEnd: 58
+summary: "A család télen a nagyszülőknél madarat etet: a mese a jégcsapok és a téli kert felfedezéséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "nagymama"
+  - "nagypapa"
+locations:
+  - "erd"
+objects:
+  - "auto"
+  - "jegcsap"
+  - "madareteto"
+themes:
+  - "allatok"
+  - "csaladi-esemeny"
+  - "jatszas"
+seasons:
+  - "tel"
+holidays: []
