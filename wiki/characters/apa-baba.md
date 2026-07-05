@@ -1,0 +1,14 @@
+---
+type: "Szereplő"
+title: "Apa baba"
+description: "Anya által varrt rongybaba, amely éjszakánként Anna álmát őrzi."
+resource: "https://frkandris.github.io/anna-peti-gergo-wiki/szereplo/apa-baba"
+timestamp: "2026-07-05"
+---
+
+# Apa baba
+
+Anya által varrt rongybaba, amely éjszakánként Anna álmát őrzi.
+
+## Mesék (1)
+- [Alvótársak](/stories/kie-3-alvotarsak.md)
