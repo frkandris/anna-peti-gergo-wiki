@@ -1,0 +1,73 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Chip from '../../components/Chip.astro';
+import { href, SEG, LABEL } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const stories = await getCollection('stories');
+  return stories.map((story) => ({ params: { id: story.id }, props: { story } }));
+}
+
+const { story } = Astro.props;
+const d = story.data;
+
+const volume = await getEntry(d.volume);
+
+// Build lookup maps
+const nameOf = async (col: 'characters' | 'locations' | 'themes' | 'seasons' | 'holidays') => {
+  const m = new Map<string, string>();
+  for (const e of await getCollection(col)) {
+    const data = e.data as Record<string, unknown>;
+    m.set(e.id, (data.name as string) ?? (data.label as string) ?? e.id);
+  }
+  return m;
+};
+const chars = await nameOf('characters');
+const locs = await nameOf('locations');
+const themes = await nameOf('themes');
+const seasons = await nameOf('seasons');
+const holidays = await nameOf('holidays');
+
+const objEntries = new Map((await getCollection('objects')).map((o) => [o.id, o.data]));
+const objs = d.objects.map((r) => ({ id: r.id, ...objEntries.get(r.id)! })).filter((o) => o.name);
+const things = objs.filter((o) => o.category !== 'vehicle');
+const vehicles = objs.filter((o) => o.category === 'vehicle');
+
+interface Row { label: string; type: any; items: { id: string; label: string }[] }
+const rows: Row[] = [
+  { label: LABEL.characters, type: 'character', items: d.characters.map((r) => ({ id: r.id, label: chars.get(r.id) ?? r.id })) },
+  { label: LABEL.locations, type: 'location', items: d.locations.map((r) => ({ id: r.id, label: locs.get(r.id) ?? r.id })) },
+  { label: LABEL.objects, type: 'object', items: things.map((o) => ({ id: o.id, label: o.name })) },
+  { label: LABEL.vehicles, type: 'vehicle', items: vehicles.map((o) => ({ id: o.id, label: o.name })) },
+  { label: LABEL.themes, type: 'theme', items: d.themes.map((r) => ({ id: r.id, label: themes.get(r.id) ?? r.id })) },
+  { label: LABEL.seasons, type: 'season', items: d.seasons.map((r) => ({ id: r.id, label: seasons.get(r.id) ?? r.id })) },
+  { label: LABEL.holidays, type: 'holiday', items: d.holidays.map((r) => ({ id: r.id, label: holidays.get(r.id) ?? r.id })) },
+].filter((r) => r.items.length > 0);
+---
+
+<Base title={d.title} description={d.summary}>
+  <div class="crumbs">
+    <a href={href('/')}>Főoldal</a> ›
+    <a href={href(`/${SEG.volume}/${volume.id}`)}>{volume.data.title}</a> › {d.title}
+  </div>
+
+  <h1>{d.title}</h1>
+  <p class="muted">
+    <a href={href(`/${SEG.volume}/${volume.id}`)}>{volume.data.title}</a>
+    {d.pageStart && ` · ${d.pageStart}${d.pageEnd ? `–${d.pageEnd}` : ''}. oldal`}
+  </p>
+
+  <p style="font-size:1.12rem; max-width:62ch;">{d.summary}</p>
+
+  <div class="facets">
+    {rows.map((row) => (
+      <div class="facet-row">
+        <div class="label">{row.label}</div>
+        <div class="chips">
+          {row.items.map((it) => <Chip type={row.type} id={it.id} label={it.label} />)}
+        </div>
+      </div>
+    ))}
+  </div>
+</Base>

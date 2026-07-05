@@ -1,0 +1,29 @@
+id: "kie-3-alvotarsak"
+title: "Alvótársak"
+volume: "kistestver-erkezik"
+order: 3
+pageStart: 42
+pageEnd: 61
+summary: "Petinek fáj a foga, és éjszakánként sírásával felébreszti Annát, aki egyedül maradva a szobában félni kezd. A szülők felváltva olvasnak és virrasztanak mellette, míg Anya végül azt találja ki, hogy varr egy anya- és egy apa-rongybabát. A két baba esténként a fotelben őrködik, és Anna többé nem fél elaludni."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "cica"
+  - "anya-baba"
+  - "apa-baba"
+locations:
+  - "gyerekszoba"
+objects:
+  - "varrogep"
+  - "hintalo"
+  - "villamos"
+  - "troli"
+  - "maci"
+themes:
+  - "alvas"
+  - "testverfeltekenyseg"
+  - "jatszas"
+seasons: []
+holidays: []

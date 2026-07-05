@@ -1,0 +1,36 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { href, SEG, LABEL } from '../../lib/site';
+import { allStories, usageCounts } from '../../lib/queries';
+
+const chars = await getCollection('characters');
+const counts = usageCounts(await allStories(), 'characters');
+const kindOrder = ['person', 'animal', 'toy', 'other'];
+const kindLabel: Record<string, string> = { person: 'Emberek', animal: 'Állatok', toy: 'Játékfigurák', other: 'Egyéb' };
+chars.sort((a, b) => (counts.get(b.id) ?? 0) - (counts.get(a.id) ?? 0) || a.data.name.localeCompare(b.data.name, 'hu'));
+const groups = kindOrder
+  .map((k) => ({ k, items: chars.filter((c) => c.data.kind === k) }))
+  .filter((g) => g.items.length);
+---
+
+<Base title={LABEL.characters}>
+  <div class="crumbs"><a href={href('/')}>Főoldal</a> › {LABEL.characters}</div>
+  <h1>{LABEL.characters}</h1>
+  <p class="lead muted">Kattints egy szereplőre, hogy lásd, mely mesékben tűnik fel.</p>
+
+  {groups.map((g) => (
+    <>
+      <div class="section-title"><h2>{kindLabel[g.k]}</h2><span class="count">{g.items.length} db</span></div>
+      <div class="grid">
+        {g.items.map((c) => (
+          <a class="card" href={href(`/${SEG.character}/${c.id}`)}>
+            <h3>{c.data.name}</h3>
+            <div class="meta">{counts.get(c.id) ?? 0} mesében</div>
+            {c.data.description && <p class="small muted" style="margin:.4em 0 0">{c.data.description}</p>}
+          </a>
+        ))}
+      </div>
+    </>
+  ))}
+</Base>

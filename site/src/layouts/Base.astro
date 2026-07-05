@@ -1,0 +1,75 @@
+---
+import '../styles/global.css';
+import { href, SITE, SEG, LABEL } from '../lib/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+const fullTitle = title ? `${title} — ${SITE.title}` : SITE.title;
+const desc = description ?? SITE.tagline;
+
+const nav = [
+  { seg: '', label: 'Főoldal' },
+  { seg: SEG.volume, label: LABEL.volumes },
+  { seg: SEG.story, label: LABEL.stories },
+  { seg: SEG.character, label: LABEL.characters },
+  { seg: SEG.location, label: LABEL.locations },
+  { seg: SEG.object, label: LABEL.objects },
+];
+---
+
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="icon" href={href('/favicon.svg')} type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href={href('/')}>
+          <span class="dots">
+            <i style="background:var(--red)"></i>
+            <i style="background:var(--yellow)"></i>
+            <i style="background:var(--blue)"></i>
+          </span>
+          Anna, Peti &amp; Gergő
+        </a>
+        <nav class="nav">
+          {nav.map((n) => <a href={href(`/${n.seg}`)}>{n.label}</a>)}
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap stack">
+        <p>
+          Ez egy <strong>nem hivatalos, rajongói referencia-katalógus</strong>, amely
+          segít a szülőknek megtalálni, melyik mese melyik kötetben található.
+        </p>
+        <p>
+          A könyvek szerzője és jogtulajdonosa <strong>{SITE.author}</strong>; kiadó:
+          {SITE.publisher}. Ez az oldal kizárólag <strong>metaadatokat</strong> és
+          <strong>saját szavakkal írt rövid összefoglalókat</strong> tartalmaz — nem
+          közöl eredeti szövegeket vagy illusztrációkat. Minden jog a szerzőt és a
+          kiadót illeti. Az oldal nem áll kapcsolatban a szerzővel vagy a kiadóval.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

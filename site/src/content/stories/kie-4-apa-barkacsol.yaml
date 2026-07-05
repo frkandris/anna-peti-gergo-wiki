@@ -1,0 +1,32 @@
+id: "kie-4-apa-barkacsol"
+title: "Apa barkácsol"
+volume: "kistestver-erkezik"
+order: 4
+pageStart: 62
+pageEnd: 77
+summary: "A gyerekszobában már nem fér el a sok játék, ezért a család új szekrényt keres, de a bútorboltban egyik sem megfelelő. Apa úgy dönt, maga készít egyet: méretre fűrészeli a lapokat, összecsavarozza, és színes műanyag fiókokat tesz bele. Miközben Peti a szerszámokkal ügyködne, Anna figyelmezteti, hogy a csavar nem játék, végül pedig büszkén pakolják be kincseiket az elkészült szekrénybe."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+locations:
+  - "butorbolt"
+  - "gyerekszoba"
+objects:
+  - "szekreny"
+  - "szerszamoslada"
+  - "kisauto"
+  - "villamos"
+  - "troli"
+  - "maci"
+  - "nyuszi"
+  - "hajo"
+  - "holegballon"
+themes:
+  - "barkacsolas"
+  - "csaladi-esemeny"
+  - "jatszas"
+seasons:
+  - "tavasz"
+holidays: []

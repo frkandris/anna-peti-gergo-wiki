@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import { href, SEG } from '../../lib/site';
+import { allStories } from '../../lib/queries';
+
+export async function getStaticPaths() {
+  const volumes = await getCollection('volumes');
+  return volumes.map((volume) => ({ params: { id: volume.id }, props: { volume } }));
+}
+
+const { volume } = Astro.props;
+const d = volume.data;
+
+const stories = (await allStories()).filter((s) => s.data.volume.id === volume.id);
+---
+
+<Base title={d.title} description={d.description}>
+  <div class="crumbs"><a href={href('/')}>Főoldal</a> › <a href={href(`/${SEG.volume}`)}>Kötetek</a> › {d.title}</div>
+
+  <h1>{d.title}</h1>
+  <p class="muted">
+    {d.series} sorozat{d.publisher ? ` · ${d.publisher}` : ''}{d.year ? ` · ${d.year}` : ''} ·
+    {stories.length} mese
+  </p>
+  {d.description && <p style="max-width:62ch">{d.description}</p>}
+
+  <div class="section-title"><h2>Mesék</h2><span class="count">{stories.length} db</span></div>
+  <div class="grid">
+    {stories.map((s) => (
+      <StoryCard story={s} volumeName={`${s.data.order}. mese`} />
+    ))}
+  </div>
+</Base>

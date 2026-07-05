@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { href, SEG, LABEL } from '../../lib/site';
+import { allStories, usageCounts } from '../../lib/queries';
+
+const locs = await getCollection('locations');
+const counts = usageCounts(await allStories(), 'locations');
+locs.sort((a, b) => (counts.get(b.id) ?? 0) - (counts.get(a.id) ?? 0) || a.data.name.localeCompare(b.data.name, 'hu'));
+---
+
+<Base title={LABEL.locations}>
+  <div class="crumbs"><a href={href('/')}>Főoldal</a> › {LABEL.locations}</div>
+  <h1>{LABEL.locations}</h1>
+  <p class="lead muted">Hol játszódnak a mesék? Valós budapesti és magyarországi helyszínek, valamint otthoni terek.</p>
+
+  <div class="grid" style="margin-top:18px">
+    {locs.map((c) => (
+      <a class="card" href={href(`/${SEG.location}/${c.id}`)}>
+        <h3>{c.data.name}</h3>
+        <div class="meta">{c.data.kind === 'fictional' ? 'Kitalált' : 'Valós'} · {counts.get(c.id) ?? 0} mesében</div>
+        {c.data.description && <p class="small muted" style="margin:.4em 0 0">{c.data.description}</p>}
+      </a>
+    ))}
+  </div>
+</Base>

@@ -1,0 +1,40 @@
+id: "kie-8-hurra-nyar-van"
+title: "Hurrá, nyár van!"
+volume: "kistestver-erkezik"
+order: 8
+pageStart: 131
+pageEnd: 147
+summary: "Megérkezik a nyár, és a család a Balatonra utazik nyaralni. Fürdenek és csónakáznak a tóban, a játszótéren és a réten játszanak, komppal átkelnek Tihanyba, ahol megnézik az apátság templomát és a sok színes vitorlást. Fagyiznak, késő estig a csillagos eget csodálják, majd otthon az erkélyen folytatják a lubickolást."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+locations:
+  - "balaton"
+  - "tihany"
+  - "tihanyi-apatsag"
+  - "jatszoter"
+  - "otthon"
+objects:
+  - "auto"
+  - "komp"
+  - "gumicsonak"
+  - "hajo"
+  - "vitorlas"
+  - "motorcsonak"
+  - "ladik"
+  - "labda"
+  - "uszogumi"
+  - "csuszda"
+  - "hinta"
+  - "fagyi"
+  - "terkep"
+themes:
+  - "nyaralas"
+  - "kirandulas"
+  - "jatszas"
+  - "evszakok"
+seasons:
+  - "nyar"
+holidays: []

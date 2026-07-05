@@ -1,0 +1,26 @@
+---
+import { href, SEG } from '../lib/site';
+
+type ChipType = 'character' | 'location' | 'object' | 'vehicle' | 'theme' | 'season' | 'holiday' | 'volume';
+
+interface Props {
+  type: ChipType;
+  id: string;
+  label: string;
+}
+const { type, id, label } = Astro.props;
+
+// vehicles live under the objects route; everything else maps 1:1
+const segMap: Record<ChipType, string> = {
+  character: SEG.character,
+  location: SEG.location,
+  object: SEG.object,
+  vehicle: SEG.object,
+  theme: SEG.theme,
+  season: SEG.season,
+  holiday: SEG.holiday,
+  volume: SEG.volume,
+};
+const url = href(`/${segMap[type]}/${id}`);
+---
+<a class={`chip ${type}`} href={url}>{label}</a>

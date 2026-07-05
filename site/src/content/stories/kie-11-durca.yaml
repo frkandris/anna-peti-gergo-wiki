@@ -1,0 +1,25 @@
+id: "kie-11-durca"
+title: "Durca"
+volume: "kistestver-erkezik"
+order: 11
+pageStart: 179
+pageEnd: 192
+summary: "Anya mérgesen szól rá Annára és Petire, hogy rakjanak rendet a szobájukban, de a gyerekek inkább rajzolni akarnak, és durcásan a konyhába vonulnak. Amikor később Anna kéri, hogy Anya vegye le a polcról a játék macskát és ragassza meg a szakadt rajzot, Anya ugyanazzal a kifogással él, mint korábban a gyerekek: éppen nincs rá ideje. Anna megérti a leckét, és Petivel gyorsan gyönyörű rendet raknak, amiért Anya megdicséri őket. A durcás napon készült tulipános rajzot Anya azóta is őrzi."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+locations:
+  - "gyerekszoba"
+  - "konyha"
+objects:
+  - "rajz"
+  - "villamos"
+  - "troli"
+  - "labda"
+themes:
+  - "dackorszak"
+  - "rendrakas"
+  - "jatszas"
+seasons: []
+holidays: []

@@ -1,0 +1,127 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { href, SEG, LABEL } from '../../lib/site';
+import { allStories, usageCounts } from '../../lib/queries';
+
+const stories = await allStories();
+
+// label maps for building each story's searchable text
+const mapOf = async (col: any) => {
+  const m = new Map<string, string>();
+  for (const e of await getCollection(col)) {
+    const d = e.data as any;
+    m.set(e.id, d.name ?? d.title ?? d.label ?? e.id);
+  }
+  return m;
+};
+const chars = await mapOf('characters');
+const locs = await mapOf('locations');
+const objs = await mapOf('objects');
+const themes = await mapOf('themes');
+const seasons = await mapOf('seasons');
+const holidays = await mapOf('holidays');
+const volumes = await mapOf('volumes');
+
+// filter buttons: themes by frequency, then seasons, then holidays
+const themeCounts = usageCounts(stories, 'themes');
+const themeBtns = [...themes.entries()]
+  .map(([id, label]) => ({ token: `tema:${id}`, label, n: themeCounts.get(id) ?? 0 }))
+  .filter((t) => t.n > 0)
+  .sort((a, b) => b.n - a.n);
+const seasonBtns = [...seasons.entries()].map(([id, label]) => ({ token: `evszak:${id}`, label }));
+const holidayBtns = [...holidays.entries()].map(([id, label]) => ({ token: `unnep:${id}`, label }));
+
+function cardData(s: (typeof stories)[number]) {
+  const d = s.data;
+  const names = [
+    d.title,
+    ...d.characters.map((r) => chars.get(r.id)),
+    ...d.locations.map((r) => locs.get(r.id)),
+    ...d.objects.map((r) => objs.get(r.id)),
+    ...d.themes.map((r) => themes.get(r.id)),
+    ...d.seasons.map((r) => seasons.get(r.id)),
+    ...d.holidays.map((r) => holidays.get(r.id)),
+    volumes.get(d.volume.id),
+    d.summary,
+  ].filter(Boolean).join(' ').toLowerCase();
+  const tags = [
+    ...d.themes.map((r) => `tema:${r.id}`),
+    ...d.seasons.map((r) => `evszak:${r.id}`),
+    ...d.holidays.map((r) => `unnep:${r.id}`),
+  ].join(' ');
+  return { names, tags };
+}
+---
+
+<Base title={LABEL.stories} description="Keresés és szűrés a mesék között téma, évszak, ünnep és kulcsszó szerint.">
+  <div class="crumbs"><a href={href('/')}>Főoldal</a> › {LABEL.stories}</div>
+  <h1>Mesék</h1>
+  <p class="lead muted">Keress rá bármire — szereplőre, tárgyra, helyszínre — vagy szűrj téma és évszak szerint.</p>
+
+  <div class="searchbar">
+    <input id="q" type="search" placeholder="Keresés… pl. villamos, fogorvos, Balaton, karácsony" autocomplete="off" />
+  </div>
+
+  <div class="filterbtns" data-group="tema">
+    {themeBtns.map((b) => <button type="button" data-token={b.token} aria-pressed="false">{b.label} <span class="muted">· {b.n}</span></button>)}
+  </div>
+  <div class="filterbtns" data-group="evszak-unnep">
+    {seasonBtns.map((b) => <button type="button" data-token={b.token} aria-pressed="false">{b.label}</button>)}
+    {holidayBtns.map((b) => <button type="button" data-token={b.token} aria-pressed="false">{b.label}</button>)}
+  </div>
+
+  <p class="small muted" id="resultcount" style="margin:6px 0 14px"></p>
+
+  <div class="grid" id="results">
+    {stories.map((s) => {
+      const { names, tags } = cardData(s);
+      return (
+        <a class="card story-card" href={href(`/${SEG.story}/${s.id}`)} data-search={names} data-tags={tags}>
+          <h3>{s.data.title}</h3>
+          <div class="meta">{volumes.get(s.data.volume.id)}{s.data.pageStart ? ` · ${s.data.pageStart}. oldaltól` : ''}</div>
+          <p class="small muted" style="margin:.5em 0 0">{s.data.summary}</p>
+        </a>
+      );
+    })}
+  </div>
+  <div class="empty" id="empty" hidden>Nincs a szűrőknek megfelelő mese. Próbálj tágabb keresést.</div>
+</Base>
+
+<script is:inline>
+  (function () {
+    const q = document.getElementById('q');
+    const cards = Array.from(document.querySelectorAll('.story-card'));
+    const buttons = Array.from(document.querySelectorAll('.filterbtns button'));
+    const empty = document.getElementById('empty');
+    const countEl = document.getElementById('resultcount');
+    const active = new Set();
+
+    function apply() {
+      const term = (q.value || '').trim().toLowerCase();
+      let shown = 0;
+      for (const card of cards) {
+        const hay = card.getAttribute('data-search') || '';
+        const tags = (card.getAttribute('data-tags') || '').split(' ');
+        const textOk = !term || hay.includes(term);
+        const tagsOk = [...active].every((t) => tags.includes(t));
+        const show = textOk && tagsOk;
+        card.style.display = show ? '' : 'none';
+        if (show) shown++;
+      }
+      empty.hidden = shown !== 0;
+      countEl.textContent = shown + ' mese' + (term || active.size ? ' a szűrésnek megfelelően' : ' összesen');
+    }
+
+    q.addEventListener('input', apply);
+    for (const b of buttons) {
+      b.addEventListener('click', () => {
+        const t = b.getAttribute('data-token');
+        if (active.has(t)) { active.delete(t); b.setAttribute('aria-pressed', 'false'); }
+        else { active.add(t); b.setAttribute('aria-pressed', 'true'); }
+        apply();
+      });
+    }
+    apply();
+  })();
+</script>

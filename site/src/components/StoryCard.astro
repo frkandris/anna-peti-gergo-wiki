@@ -1,0 +1,16 @@
+---
+import type { Story } from '../lib/queries';
+import { href, SEG } from '../lib/site';
+
+interface Props {
+  story: Story;
+  volumeName?: string;
+}
+const { story, volumeName } = Astro.props;
+const d = story.data;
+---
+<a class="card" href={href(`/${SEG.story}/${story.id}`)}>
+  <h3>{d.title}</h3>
+  {volumeName && <div class="meta">{volumeName}{d.pageStart ? ` · ${d.pageStart}. oldaltól` : ''}</div>}
+  <p class="small muted" style="margin:.5em 0 0">{d.summary}</p>
+</a>

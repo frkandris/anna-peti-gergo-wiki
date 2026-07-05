@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import { href, SEG, LABEL } from '../../lib/site';
+import { allStories, storiesReferencing, labelMap } from '../../lib/queries';
+
+export async function getStaticPaths() {
+  const locs = await getCollection('locations');
+  return locs.map((e) => ({ params: { id: e.id }, props: { entity: e } }));
+}
+
+const { entity } = Astro.props;
+const d = entity.data;
+const stories = await allStories();
+const refs = storiesReferencing(stories, 'locations', entity.id);
+const volumes = await labelMap('volumes');
+---
+
+<Base title={d.name} description={d.description}>
+  <div class="crumbs"><a href={href('/')}>Főoldal</a> › <a href={href(`/${SEG.location}`)}>{LABEL.locations}</a> › {d.name}</div>
+  <h1>{d.name}</h1>
+  <p class="muted">{d.kind === 'fictional' ? 'Kitalált helyszín' : 'Valós helyszín'} · {refs.length} mesében</p>
+  {d.description && <p style="max-width:60ch">{d.description}</p>}
+
+  <div class="section-title"><h2>Itt játszódó mesék</h2><span class="count">{refs.length} db</span></div>
+  <div class="grid">
+    {refs.map((s) => <StoryCard story={s} volumeName={volumes.get(s.data.volume.id)} />)}
+  </div>
+</Base>

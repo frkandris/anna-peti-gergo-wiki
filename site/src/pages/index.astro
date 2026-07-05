@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { href, SEG, LABEL, SITE } from '../lib/site';
+import { allStories, usageCounts } from '../lib/queries';
+
+const stories = await allStories();
+const volumes = await getCollection('volumes');
+const characters = await getCollection('characters');
+const locations = await getCollection('locations');
+const objects = await getCollection('objects');
+const themes = await getCollection('themes');
+
+const themeCounts = usageCounts(stories, 'themes');
+const topThemes = themes
+  .map((t) => ({ id: t.id, label: t.data.label, n: themeCounts.get(t.id) ?? 0 }))
+  .filter((t) => t.n > 0)
+  .sort((a, b) => b.n - a.n);
+
+const cats = [
+  { seg: SEG.volume, label: LABEL.volumes, n: volumes.length, color: 'var(--red)' },
+  { seg: SEG.story, label: LABEL.stories, n: stories.length, color: 'var(--yellow)' },
+  { seg: SEG.character, label: LABEL.characters, n: characters.length, color: 'var(--c-character)' },
+  { seg: SEG.location, label: LABEL.locations, n: locations.length, color: 'var(--c-location)' },
+  { seg: SEG.object, label: LABEL.objects, n: objects.length, color: 'var(--c-object)' },
+];
+---
+
+<Base>
+  <section class="hero">
+    <h1>Melyik mese melyik kötetben?</h1>
+    <p class="lead">
+      Kereshető katalógus a <strong>Bartos Erika</strong>-univerzum meséihez — hogy
+      a szülők pillanatok alatt megtalálják a megfelelő történetet: szereplő, helyszín,
+      tárgy, évszak vagy épp élethelyzet szerint.
+    </p>
+    <div class="pillrow" style="margin-top:18px">
+      {cats.map((c) => (
+        <a class="pill" href={href(`/${c.seg}`)}>
+          <span class="dot" style={`background:${c.color}`}></span>{c.label}
+          <span class="muted">· {c.n}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  {topThemes.length > 0 && (
+    <>
+      <div class="section-title"><h2>Böngéssz élethelyzet szerint</h2></div>
+      <p class="muted small" style="margin-top:-8px">Óvoda, fogorvos, kistestvér, dackorszak… — kattints egy témára.</p>
+      <div class="chips" style="margin-top:10px">
+        {topThemes.map((t) => (
+          <a class={`chip theme`} href={href(`/${SEG.theme}/${t.id}`)}>{t.label} · {t.n}</a>
+        ))}
+      </div>
+    </>
+  )}
+
+  <div class="section-title"><h2>{LABEL.volumes}</h2><span class="count">{volumes.length} kötet</span></div>
+  <div class="grid">
+    {volumes.map((v) => (
+      <a class="card" href={href(`/${SEG.volume}/${v.id}`)}>
+        <h3>{v.data.title}</h3>
+        <div class="meta">{v.data.series} sorozat</div>
+        <p class="small muted" style="margin:.5em 0 0">
+          {stories.filter((s) => s.data.volume.id === v.id).length} mese
+          {v.data.description ? ` · ${v.data.description}` : ''}
+        </p>
+      </a>
+    ))}
+  </div>
+
+  <p class="small muted" style="margin-top:28px">
+    Hiányzik egy kötet? A katalógus fokozatosan bővül a további Anna, Peti és Gergő
+    kötetekkel.
+  </p>
+</Base>

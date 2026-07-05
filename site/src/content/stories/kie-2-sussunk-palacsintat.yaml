@@ -1,0 +1,33 @@
+id: "kie-2-sussunk-palacsintat"
+title: "Süssünk palacsintát!"
+volume: "kistestver-erkezik"
+order: 2
+pageStart: 26
+pageEnd: 41
+summary: "Egy borongós, esős őszi napon Anya azt javasolja, hogy süssenek palacsintát, és az egész család nekilát. Miközben lekváros, túrós és csokis palacsinták készülnek, a csokikrém rejtélyesen eltűnik. Kiderül, hogy a kis Peti kente össze magát és a játékait vele, amiről vidám fénykép is készül."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "cica"
+locations:
+  - "konyha"
+objects:
+  - "habvero"
+  - "serpenyo"
+  - "fenykepezogep"
+  - "labda"
+  - "kisauto"
+  - "hintalo"
+  - "villamos"
+  - "troli"
+  - "palacsinta"
+  - "csokikrem"
+themes:
+  - "sutes-fozes"
+  - "jatszas"
+  - "csaladi-esemeny"
+seasons:
+  - "osz"
+holidays: []

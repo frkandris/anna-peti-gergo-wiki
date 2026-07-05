@@ -1,0 +1,34 @@
+id: "kie-5-husvet"
+title: "Húsvét"
+volume: "kistestver-erkezik"
+order: 5
+pageStart: 79
+pageEnd: 92
+summary: "Húsvét közeledtével Anya és Anna sokféle színes hímes tojást és állat alakú tojást készítenek, amelyeket barkaágakra aggatnak, és Peti is kedvet kap az ünnephez. Húsvéthétfőn Apa és Peti meglocsolják a lányokat, akik hímes tojással hálálják meg a locsolást. A család meglátogatja a nagymamát Érden, ahol igazi fehér nyuszi is várja őket, Anna pedig bőkezűen osztogatja szépséges tojásait a locsolóknak."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "nagymama"
+locations:
+  - "otthon"
+  - "erkely"
+  - "erd"
+objects:
+  - "himes-tojas"
+  - "barkaag"
+  - "kolni"
+  - "plussnyuszi"
+  - "hintalo"
+  - "labda"
+  - "vonat"
+themes:
+  - "unnep"
+  - "barkacsolas"
+  - "csaladi-esemeny"
+  - "kirandulas"
+seasons:
+  - "tavasz"
+holidays:
+  - "husvet"

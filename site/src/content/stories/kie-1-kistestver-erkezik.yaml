@@ -1,0 +1,41 @@
+id: "kie-1-kistestver-erkezik"
+title: "Kistestvér érkezik"
+volume: "kistestver-erkezik"
+order: 1
+pageStart: 3
+pageEnd: 25
+summary: "Anna szülei elárulják, hogy kistestvére születik, és a család izgatottan készül az érkezésére. A kórházban megszületik a kisöccse, Peti, akit ötödik nap mózeskosárban visznek haza a téli hidegben. Anna eleinte a nagymamánál marad, majd otthon boldogan segít gondozni és babusgatni az újszülöttet."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "nagymama"
+  - "bea"
+  - "cica"
+  - "dedi-papa"
+  - "juci"
+  - "netti"
+  - "attila-papa"
+  - "szofi"
+locations:
+  - "korhaz"
+objects:
+  - "labda"
+  - "hintalo"
+  - "vonat"
+  - "villamos"
+  - "troli"
+  - "vasalo"
+  - "forgo"
+  - "mozeskosar"
+  - "maci"
+  - "hajo"
+  - "holegballon"
+themes:
+  - "kistestver-erkezese"
+  - "csaladi-esemeny"
+  - "jatszas"
+seasons:
+  - "tel"
+holidays: []

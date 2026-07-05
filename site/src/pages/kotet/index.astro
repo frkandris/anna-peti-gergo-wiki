@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { href, SEG, LABEL } from '../../lib/site';
+import { allStories } from '../../lib/queries';
+
+const volumes = await getCollection('volumes');
+const stories = await allStories();
+const countFor = (id: string) => stories.filter((s) => s.data.volume.id === id).length;
+volumes.sort((a, b) => a.data.title.localeCompare(b.data.title, 'hu'));
+---
+
+<Base title={LABEL.volumes}>
+  <div class="crumbs"><a href={href('/')}>Főoldal</a> › Kötetek</div>
+  <h1>{LABEL.volumes}</h1>
+  <p class="lead muted">A Bartos Erika-univerzum kötetei. Kattints egy kötetre a benne található mesékért.</p>
+
+  <div class="grid" style="margin-top:20px">
+    {volumes.map((v) => (
+      <a class="card" href={href(`/${SEG.volume}/${v.id}`)}>
+        <h3>{v.data.title}</h3>
+        <div class="meta">{v.data.series} sorozat{v.data.year ? ` · ${v.data.year}` : ''}</div>
+        <p class="small muted" style="margin:.5em 0 0">{countFor(v.id)} mese{v.data.description ? ` · ${v.data.description}` : ''}</p>
+      </a>
+    ))}
+  </div>
+</Base>

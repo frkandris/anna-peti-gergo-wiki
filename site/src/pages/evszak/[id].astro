@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import { href, LABEL } from '../../lib/site';
+import { allStories, storiesReferencing, labelMap } from '../../lib/queries';
+
+export async function getStaticPaths() {
+  const seasons = await getCollection('seasons');
+  return seasons.map((t) => ({ params: { id: t.id }, props: { entity: t } }));
+}
+
+const { entity } = Astro.props;
+const d = entity.data;
+const stories = await allStories();
+const refs = storiesReferencing(stories, 'seasons', entity.id);
+const volumes = await labelMap('volumes');
+---
+
+<Base title={`${d.label} — évszak`}>
+  <div class="crumbs"><a href={href('/')}>Főoldal</a> › {LABEL.seasons} › {d.label}</div>
+  <h1>{d.label}</h1>
+  <p class="muted">Évszak · {refs.length} mese</p>
+
+  <div class="section-title"><h2>{d.label} évszakban játszódó mesék</h2><span class="count">{refs.length} db</span></div>
+  <div class="grid">
+    {refs.map((s) => <StoryCard story={s} volumeName={volumes.get(s.data.volume.id)} />)}
+  </div>
+</Base>

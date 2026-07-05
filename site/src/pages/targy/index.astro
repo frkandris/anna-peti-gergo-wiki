@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { href, SEG, LABEL } from '../../lib/site';
+import { allStories, usageCounts } from '../../lib/queries';
+
+const objs = await getCollection('objects');
+const counts = usageCounts(await allStories(), 'objects');
+const sortByCount = (a: any, b: any) =>
+  (counts.get(b.id) ?? 0) - (counts.get(a.id) ?? 0) || a.data.name.localeCompare(b.data.name, 'hu');
+const vehicles = objs.filter((o) => o.data.category === 'vehicle').sort(sortByCount);
+const things = objs.filter((o) => o.data.category !== 'vehicle').sort(sortByCount);
+
+const Card = 'a';
+---
+
+<Base title={`${LABEL.objects} és ${LABEL.vehicles.toLowerCase()}`}>
+  <div class="crumbs"><a href={href('/')}>Főoldal</a> › {LABEL.objects}</div>
+  <h1>{LABEL.objects} és {LABEL.vehicles.toLowerCase()}</h1>
+  <p class="lead muted">Tárgyak és járművek, amelyekre a gyerekek gyakran rákérdeznek.</p>
+
+  <div class="section-title"><h2>{LABEL.vehicles}</h2><span class="count">{vehicles.length} db</span></div>
+  <div class="grid">
+    {vehicles.map((c) => (
+      <a class="card" href={href(`/${SEG.object}/${c.id}`)}>
+        <h3>{c.data.name}</h3>
+        <div class="meta">{counts.get(c.id) ?? 0} mesében</div>
+      </a>
+    ))}
+  </div>
+
+  <div class="section-title"><h2>{LABEL.objects}</h2><span class="count">{things.length} db</span></div>
+  <div class="grid">
+    {things.map((c) => (
+      <a class="card" href={href(`/${SEG.object}/${c.id}`)}>
+        <h3>{c.data.name}</h3>
+        <div class="meta">{counts.get(c.id) ?? 0} mesében</div>
+      </a>
+    ))}
+  </div>
+</Base>
