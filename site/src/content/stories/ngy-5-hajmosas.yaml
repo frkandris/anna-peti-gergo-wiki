@@ -1,0 +1,29 @@
+id: "ngy-5-hajmosas"
+title: "Hajmosás"
+volume: "nagycsalad-lettunk"
+order: 5
+pageStart: 63
+pageEnd: 78
+summary: "A gyerekek nem szeretnek hajat mosni: a történet arról szól, hogyan válik játékká és megszokott szertartássá a hajmosás."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+locations:
+  - "furdoszoba"
+objects:
+  - "furdokad"
+  - "sampon"
+  - "hajszarito"
+  - "torolkozo"
+  - "tukor"
+  - "gumikacsa"
+  - "labda"
+themes:
+  - "hajmosas"
+  - "higiene"
+  - "jatszas"
+  - "csaladi-esemeny"
+seasons: []
+holidays: []

@@ -1,0 +1,34 @@
+id: "ngy-6-torokgyulladas"
+title: "Torokgyulladás"
+volume: "nagycsalad-lettunk"
+order: 6
+pageStart: 79
+pageEnd: 100
+summary: "A gyerekek egymás után torokgyulladást kapnak: a mese a betegségről és az otthoni gyógyulás napjairól szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "elemer-doktor"
+  - "cica"
+locations:
+  - "gyerekszoba"
+  - "furdoszoba"
+objects:
+  - "gyogyszer"
+  - "hoemero"
+  - "orvosi-taska"
+  - "lampas"
+  - "diavetito"
+  - "matrica"
+  - "krumplinyomda"
+  - "fuggony"
+themes:
+  - "betegseg"
+  - "barkacsolas"
+  - "jatszas"
+  - "csaladi-esemeny"
+seasons: []
+holidays: []

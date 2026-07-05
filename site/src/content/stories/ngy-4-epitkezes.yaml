@@ -1,0 +1,30 @@
+id: "ngy-4-epitkezes"
+title: "Építkezés"
+volume: "nagycsalad-lettunk"
+order: 4
+pageStart: 51
+pageEnd: 62
+summary: "Gergő elbűvölten figyeli az építkezés gépeit: a mese a munkagépekről és a gyerekek játékáról szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "epitkezes"
+objects:
+  - "daru"
+  - "markolo"
+  - "teherauto"
+  - "betonkevero"
+  - "sisak"
+  - "tegla"
+  - "babakocsi"
+themes:
+  - "epitkezes"
+  - "csaladi-esemeny"
+  - "jatszas"
+seasons:
+  - "nyar"
+holidays: []

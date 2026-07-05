@@ -1,0 +1,32 @@
+id: "ngy-16-jatszoter"
+title: "Játszótér"
+volume: "nagycsalad-lettunk"
+order: 16
+pageStart: 227
+pageEnd: 241
+summary: "A család egy új játszóteret fedez fel: a mese a szabadtéri játék öröméről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "katica"
+locations:
+  - "hajogyari-sziget"
+  - "duna"
+  - "jatszoter"
+objects:
+  - "auto"
+  - "kismotor"
+  - "csuszda"
+  - "hinta"
+  - "forgo"
+  - "kotelhid"
+themes:
+  - "jatszas"
+  - "kirandulas"
+  - "csaladi-esemeny"
+seasons:
+  - "nyar"
+holidays: []

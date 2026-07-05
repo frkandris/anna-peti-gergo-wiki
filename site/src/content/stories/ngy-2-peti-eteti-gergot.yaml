@@ -1,0 +1,32 @@
+id: "ngy-2-peti-eteti-gergot"
+title: "Peti eteti Gergőt"
+volume: "nagycsalad-lettunk"
+order: 2
+pageStart: 23
+pageEnd: 36
+summary: "Gergő megismerkedik a szilárd étellel: a mese a kisbaba etetéséről és a testvéri gondoskodásról szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "gergo"
+locations:
+  - "gyerekszoba"
+  - "konyha"
+  - "piac"
+objects:
+  - "turmixgep"
+  - "mozeskosar"
+  - "labda"
+  - "kisvonat"
+  - "villamos"
+  - "troli"
+themes:
+  - "etetes"
+  - "testverfeltekenyseg"
+  - "sutes-fozes"
+  - "gondoskodas"
+seasons:
+  - "tel"
+  - "nyar"
+holidays: []

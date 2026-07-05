@@ -1,0 +1,33 @@
+id: "ngy-3-galeriat-epitunk"
+title: "Galériát építünk"
+volume: "nagycsalad-lettunk"
+order: 3
+pageStart: 37
+pageEnd: 50
+summary: "A gyerekszobába galéria épül: a történet a barkácsolásról és a közös alvóhely kialakításáról szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "gergo"
+  - "asztalos"
+locations:
+  - "gyerekszoba"
+objects:
+  - "galeria"
+  - "lepcso"
+  - "kisagy"
+  - "pelenkazo"
+  - "orangyal"
+  - "letra"
+  - "labda"
+  - "kisvonat"
+  - "hajo"
+themes:
+  - "barkacsolas"
+  - "epitkezes"
+  - "alvas"
+  - "csaladi-esemeny"
+seasons: []
+holidays: []

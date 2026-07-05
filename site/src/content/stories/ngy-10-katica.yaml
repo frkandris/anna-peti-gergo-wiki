@@ -1,0 +1,26 @@
+id: "ngy-10-katica"
+title: "Katica"
+volume: "nagycsalad-lettunk"
+order: 10
+pageStart: 143
+pageEnd: 152
+summary: "A család a hegyre kirándul, ahol katicát találnak: a mese az élőlények tiszteletéről és a természetről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "harmashatar-hegy"
+objects:
+  - "auto"
+  - "hatizsak"
+  - "katica-haziko"
+themes:
+  - "kirandulas"
+  - "allatok"
+  - "epitkezes"
+seasons:
+  - "tavasz"
+holidays: []

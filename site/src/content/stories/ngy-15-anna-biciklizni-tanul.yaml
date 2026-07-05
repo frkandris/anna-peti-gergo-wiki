@@ -1,0 +1,30 @@
+id: "ngy-15-anna-biciklizni-tanul"
+title: "Anna biciklizni tanul"
+volume: "nagycsalad-lettunk"
+order: 15
+pageStart: 209
+pageEnd: 226
+summary: "Anna megtanul biciklizni: a történet a kitartásról és az első kétkerekű meghódításáról szól."
+characters:
+  - "anna"
+  - "anya"
+  - "apa"
+  - "peti"
+  - "gergo"
+  - "viki"
+  - "maci"
+locations:
+  - "margit-sziget"
+objects:
+  - "bicikli"
+  - "roller"
+  - "babakocsi"
+  - "kismotor"
+themes:
+  - "biciklizes"
+  - "dackorszak"
+  - "csaladi-esemeny"
+seasons:
+  - "tavasz"
+  - "nyar"
+holidays: []

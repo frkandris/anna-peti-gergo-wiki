@@ -1,0 +1,35 @@
+id: "ngy-9-utalok-oltozni"
+title: "Utálok öltözni!"
+volume: "nagycsalad-lettunk"
+order: 9
+pageStart: 129
+pageEnd: 142
+summary: "A kis Gergő utál öltözni: a történet a dacos kisgyerek felöltöztetéséről és egy téli utazásról szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "attila-papa"
+locations:
+  - "debrecen"
+objects:
+  - "harisnya"
+  - "nadrag"
+  - "pulover"
+  - "cipo"
+  - "kabat"
+  - "pelenka"
+  - "alma"
+  - "kifli"
+  - "mazsola"
+  - "kisauto"
+  - "auto"
+themes:
+  - "oltozkodas"
+  - "dackorszak"
+  - "csaladi-esemeny"
+seasons:
+  - "tel"
+holidays: []

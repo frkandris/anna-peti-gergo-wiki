@@ -1,0 +1,28 @@
+id: "ngy-13-telapo"
+title: "Télapó"
+volume: "nagycsalad-lettunk"
+order: 13
+pageStart: 185
+pageEnd: 196
+summary: "A gyerekek a Télapót várják: a történet a mikulásvárásról és az ajándékozás öröméről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "telapo"
+locations:
+  - "otthon"
+objects:
+  - "csizma"
+  - "ajandek"
+  - "szines-ceruza"
+  - "szanko"
+themes:
+  - "unnep"
+  - "alvas"
+seasons:
+  - "tel"
+holidays:
+  - "mikulas"

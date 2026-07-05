@@ -1,0 +1,26 @@
+id: "ngy-12-cirkusz"
+title: "Cirkusz"
+volume: "nagycsalad-lettunk"
+order: 12
+pageStart: 167
+pageEnd: 183
+summary: "A család a cirkuszba megy: a mese az előadás látványosságairól és egy közös élményről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "fovarosi-nagycirkusz"
+objects:
+  - "jegy"
+  - "perec"
+  - "almale"
+themes:
+  - "cirkusz"
+  - "csaladi-esemeny"
+  - "allatok"
+seasons:
+  - "tavasz"
+holidays: []

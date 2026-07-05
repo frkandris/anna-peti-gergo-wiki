@@ -1,0 +1,29 @@
+id: "ngy-14-peti-korcsolyazni-tanul"
+title: "Peti korcsolyázni tanul"
+volume: "nagycsalad-lettunk"
+order: 14
+pageStart: 197
+pageEnd: 208
+summary: "Peti megtanul korcsolyázni: a mese egy új készség elsajátításáról és a bátorság megszerzéséről szól."
+characters:
+  - "peti"
+  - "anna"
+  - "anya"
+  - "apa"
+  - "gergo"
+  - "laci-bacsi"
+locations:
+  - "ovoda"
+  - "korcsolyapalya"
+objects:
+  - "korcsolya"
+  - "plakat"
+  - "hatizsak"
+themes:
+  - "korcsolyazas"
+  - "evszakok"
+  - "testverfeltekenyseg"
+seasons:
+  - "tel"
+  - "osz"
+holidays: []

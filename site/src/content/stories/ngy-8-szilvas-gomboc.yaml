@@ -1,0 +1,31 @@
+id: "ngy-8-szilvas-gomboc"
+title: "Szilvás gombóc"
+volume: "nagycsalad-lettunk"
+order: 8
+pageStart: 117
+pageEnd: 128
+summary: "A család a nagyszülőknél szilvás gombócot főz: a mese a közös sütés-főzésről és a vidéki látogatásról szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "nagymama"
+  - "nagypapa"
+locations:
+  - "erd"
+objects:
+  - "gyurodeszka"
+  - "sodrofa"
+  - "szilva"
+  - "szilvas-gomboc"
+  - "teherauto"
+  - "kisauto"
+themes:
+  - "sutes-fozes"
+  - "csaladi-esemeny"
+  - "kirandulas"
+seasons:
+  - "nyar"
+holidays: []

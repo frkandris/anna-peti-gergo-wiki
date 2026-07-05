@@ -1,0 +1,28 @@
+id: "ngy-11-a-sumegi-var"
+title: "A sümegi vár"
+volume: "nagycsalad-lettunk"
+order: 11
+pageStart: 153
+pageEnd: 166
+summary: "A család a sümegi várat látogatja meg: a történet egy középkori vár és egy lovagi bemutató felfedezéséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+locations:
+  - "sumegi-var"
+objects:
+  - "auto"
+  - "agyu"
+  - "kard"
+  - "sisak"
+  - "ij"
+  - "kurtoskalacs"
+  - "zaszlo"
+themes:
+  - "kirandulas"
+seasons:
+  - "tavasz"
+holidays: []

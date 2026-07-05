@@ -1,0 +1,31 @@
+id: "ngy-7-anya-beteg"
+title: "Anya beteg"
+volume: "nagycsalad-lettunk"
+order: 7
+pageStart: 101
+pageEnd: 116
+summary: "Most Anya betegszik meg: a történet arról szól, hogyan ápolja a család a beteg édesanyát."
+characters:
+  - "anna"
+  - "peti"
+  - "gergo"
+  - "anya"
+  - "apa"
+  - "nagymama"
+  - "cini"
+locations:
+  - "ovoda"
+objects:
+  - "hoemero"
+  - "babakocsi"
+  - "sarkany"
+  - "torolkozo"
+  - "auto"
+  - "villamos"
+themes:
+  - "betegseg"
+  - "csaladi-esemeny"
+  - "jatszas"
+seasons:
+  - "tavasz"
+holidays: []

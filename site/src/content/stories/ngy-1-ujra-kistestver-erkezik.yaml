@@ -1,0 +1,42 @@
+id: "ngy-1-ujra-kistestver-erkezik"
+title: "Újra kistestvér érkezik"
+volume: "nagycsalad-lettunk"
+order: 1
+pageStart: 5
+pageEnd: 22
+summary: "Megszületik a harmadik gyerek, Gergő: a történet az új kistestvér várásáról és érkezéséről szól."
+characters:
+  - "anna"
+  - "peti"
+  - "anya"
+  - "apa"
+  - "gergo"
+  - "nagymama"
+  - "nagypapa"
+  - "eszti"
+  - "tamas"
+  - "juci"
+  - "attila-papa"
+  - "agi-neni"
+locations:
+  - "gyerekszoba"
+  - "korhaz"
+  - "erdo"
+objects:
+  - "auto"
+  - "gyerekules"
+  - "kisagy"
+  - "mozeskosar"
+  - "hintalo"
+  - "labda"
+  - "lufi"
+  - "merleg"
+  - "kisvonat"
+themes:
+  - "kistestver-erkezese"
+  - "csaladi-esemeny"
+  - "varakozas"
+  - "evszakok"
+seasons:
+  - "osz"
+holidays: []
